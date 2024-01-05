@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Software rilasciato con licenza GNU GPLv3 https://www.gnu.org/licenses/gpl-3.0.html
+# Autore: Loris Tissino <loris.tissino@gmail.com>
+
 update() {
     echo "UPDATE SCUOLE SET DESCRIZIONETIPOLOGIAGRADOISTRUZIONESCUOLA = 'Infanzia' WHERE DESCRIZIONETIPOLOGIAGRADOISTRUZIONESCUOLA LIKE '%INFANZIA%';" | sqlite3 aa_irc2023.db 
 

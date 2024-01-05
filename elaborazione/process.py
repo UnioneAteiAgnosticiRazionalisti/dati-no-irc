@@ -1,5 +1,10 @@
 #!/usr/bin/env python3
 
+'''
+Software rilasciato con licenza GNU GPLv3 https://www.gnu.org/licenses/gpl-3.0.html
+Autore: Loris Tissino <loris.tissino@gmail.com>
+'''
+
 import csv
 import sys
 import sqlite3
