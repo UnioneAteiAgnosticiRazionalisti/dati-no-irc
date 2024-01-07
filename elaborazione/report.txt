@@ -1,8 +1,9 @@
 Sintesi generale
 ANNOSCOLASTICO  SUM(NUMEROSTUDENTI)  SUM(STUDENTINONAVV)  PERCNONAVV
 --------------  -------------------  -------------------  ----------
-202122          7340562              1147634              15.63     
-202223          7243370              1174356              16.21     
+202122          7163061              1053150              14.7      
+202223          7078044              1096846              15.5      
+
 
 
 Dati dubbi non tenuti in considerazione
@@ -364,3 +365,579 @@ BORI01901G    I.P.I.A. ALDINI VALERIANI                BOLOGNA            Istitu
 FIRA00701Q    SEZ.DIP. IST.TECN.AGRARIO                FIRENZE            Istituto professionale  188             158             84.04     
 BGAA88602E    VERDELLINO ZINGONIA                      VERDELLINO         Infanzia                99              83              83.84     
 FIRI017012    LEONARDO DA VINCI                        FIRENZE            Istituto professionale  978             819             83.74     
+
+
+
+Top ten, anno 202223, scuole pubbliche, provincia di PORDENONE
+CODICESCUOLA  DENOMINAZIONESCUOLA              DESCRIZIONECOMUNE     TIPOSCUOLA              NUMEROSTUDENTI  STUDENTINONAVV  PERCNONAVV
+------------  -------------------------------  --------------------  ----------------------  --------------  --------------  ----------
+PNAA81402X    PASIANO DI P.-CAP."MARIO LODI"   PASIANO DI PORDENONE  Infanzia                73              45              61.64     
+PNRI00301B    L. ZANUSSI                       MANIAGO               Istituto professionale  204             118             57.84     
+PNTN00601V    I.T. E. TURISMO "G. MARCHESINI"  SACILE                Istituto tecnico        251             144             57.37     
+PNEE83203Q    PORDENONE-V.LE TRIESTE"GABELLI"  PORDENONE             Primaria                179             96              53.63     
+PNRI00602X    IPSIA "DELLA VALENTINA" SACILE   SACILE                Istituto professionale  213             104             48.83     
+PNAA82804X    MANIAGO -VIA CAMPAGNA            MANIAGO               Infanzia                40              19              47.5      
+PNAA833029    PORDENONE-VIA CAPPUCCINI         PORDENONE             Infanzia                46              21              45.65     
+PNTD00601D    I.T. E. AMM. "G. MARCHESINI"     SACILE                Istituto tecnico        216             98              45.37     
+PNTD01201R    ITSSE "ODORICO MATTIUSSI"        PORDENONE             Istituto tecnico        796             356             44.72     
+PNAA83201C    PORDENONE"VITTORIO EMANUELE II"  PORDENONE             Infanzia                68              30              44.12     
+
+
+
+Classifica completa, anno 202122, scuole pubbliche, comune di GORIZIA
+CODICESCUOLA  DENOMINAZIONESCUOLA              DESCRIZIONECOMUNE  TIPOSCUOLA              NUMEROSTUDENTI  STUDENTINONAVV  PERCNONAVV
+------------  -------------------------------  -----------------  ----------------------  --------------  --------------  ----------
+GORI00301D    L. DA VINCI                      GORIZIA            Istituto professionale  246             148             60.16     
+GOAA814022    SC. DELL'INFANZIA CARLO FURLANI  GORIZIA            Infanzia                39              23              58.97     
+GOEE814049    SCUOLA PRIMARIA ELISA FRINTA     GORIZIA            Primaria                98              57              58.16     
+GOEE814038    SCUOLA PRIMARIA V. FUMAGALLI     GORIZIA            Primaria                62              35              56.45     
+GOTL00801N    "N. PACASSI"                     GORIZIA            Istituto tecnico        64              31              48.44     
+GOAA814033    SC. DELL'INFANZIA ROSA AGAZZI    GORIZIA            Infanzia                64              30              46.88     
+GOTE00701V    GABRIELE D'ANNUNZIO              GORIZIA            Istituto tecnico        481             225             46.78     
+GORC00301R    R.M. COSSAR - GORIZIA            GORIZIA            Istituto professionale  185             81              43.78     
+GOTD008017    ENRICO FERMI                     GORIZIA            Istituto tecnico        89              34              38.2      
+GOSD007012    "M.FABIANI"                      GORIZIA            Liceo                   279             102             36.56     
+GOMM814015    SC. SEC. DI I GRADO V. LOCCHI    GORIZIA            Secondaria primo grado  311             110             35.37     
+GOEE814027    SCUOLA PRIMARIA GEN.A.PECORINI   GORIZIA            Primaria                163             55              33.74     
+GOTF00801D    G. GALILEI                       GORIZIA            Istituto tecnico        517             170             32.88     
+GOPS00101L    DUCA DEGLI ABRUZZI               GORIZIA            Liceo                   356             116             32.58     
+GOPC00101D    DANTE ALIGHIERI                  GORIZIA            Liceo                   130             38              29.23     
+GOEE81302B    FRANCESCO RISMONDO               GORIZIA            Primaria                129             37              28.68     
+GOTF004016    "JURIJ VEGA" - LINGUA SLOVENA    GORIZIA            Istituto tecnico        46              12              26.09     
+GOAA81004R    VIA DEL CARSO                    GORIZIA            Infanzia                50              13              26.0      
+GOMM81001T    PERCO                            GORIZIA            Secondaria primo grado  125             31              24.8      
+GOAA813037    SAN ROCCO                        GORIZIA            Infanzia                43              10              23.26     
+GOEE81304D    G.UNGARETTI                      GORIZIA            Primaria                193             43              22.28     
+GOEE810042    G.FERRETTI                       GORIZIA            Primaria                86              18              20.93     
+GOPM00101N    SCIPIO SLATAPER                  GORIZIA            Liceo                   590             122             20.68     
+GOMM813019    GRAZIADIO ISAIA ASCOLI           GORIZIA            Secondaria primo grado  347             71              20.46     
+GOAA81202A    SCUOLA DELL'INF. PIKA NOGAVICKA  GORIZIA            Infanzia                32              6               18.75     
+GOTD00401X    ZIGA ZOIS (LINGUA SLOVENA)       GORIZIA            Istituto tecnico        97              17              17.53     
+GOAA81005T    BRIGATA AVELLINO                 GORIZIA            Infanzia                42              7               16.67     
+GOAA81204C    SCUOLA DELL'INFANZIA SONCEK      GORIZIA            Infanzia                42              7               16.67     
+GOPM00201D    SIMON GREGORCIC (L.SLOVENA)      GORIZIA            Liceo                   126             20              15.87     
+GOAA81001N    G. BOEMO                         GORIZIA            Infanzia                48              7               14.58     
+GOAA813048    VIA GARZAROLLI                   GORIZIA            Infanzia                67              9               13.43     
+GOPC002019    PRIMOZ TRUBAR (LINGUA SLOVENA)   GORIZIA            Liceo                   39              5               12.82     
+GOEE81201E    SCUOLA PRIMARIA OTON ZUPANCIC    GORIZIA            Primaria                118             15              12.71     
+GOEE81001V    E.DE AMICIS                      GORIZIA            Primaria                95              12              12.63     
+GOMM81201D    SEC. I GRADO IVAN TRINKO (SLO)   GORIZIA            Secondaria primo grado  215             24              11.16     
+GOAA812019    SCUOLA DELL'INF. PIKAPOLONICA    GORIZIA            Infanzia                20              2               10.0      
+GOAA81203B    SCUOLA DELL'INFANZIA RINGARAJA   GORIZIA            Infanzia                65              6               9.23      
+GOEE81202G    SCUOLA PRIMARIA FRAN ERJAVEC     GORIZIA            Primaria                85              7               8.24      
+GOEE81203L    SCUOLA PRIMARIA JOSIP ABRAM      GORIZIA            Primaria                46              3               6.52      
+
+
+
+Classifica completa, anno 202223, scuole pubbliche, comune di GORIZIA
+CODICESCUOLA  DENOMINAZIONESCUOLA              DESCRIZIONECOMUNE  TIPOSCUOLA              NUMEROSTUDENTI  STUDENTINONAVV  PERCNONAVV
+------------  -------------------------------  -----------------  ----------------------  --------------  --------------  ----------
+GORI00301D    L. DA VINCI                      GORIZIA            Istituto professionale  236             147             62.29     
+GOEE814038    SCUOLA PRIMARIA V. FUMAGALLI     GORIZIA            Primaria                67              41              61.19     
+GOAA814022    SC. DELL'INFANZIA CARLO FURLANI  GORIZIA            Infanzia                41              23              56.1      
+GOTD008017    ENRICO FERMI                     GORIZIA            Istituto tecnico        81              45              55.56     
+GOEE814049    SCUOLA PRIMARIA ELISA FRINTA     GORIZIA            Primaria                97              52              53.61     
+GORC00301R    R.M. COSSAR - GORIZIA            GORIZIA            Istituto professionale  179             94              52.51     
+GOTE00701V    GABRIELE D'ANNUNZIO              GORIZIA            Istituto tecnico        415             199             47.95     
+GOTL00801N    "N. PACASSI"                     GORIZIA            Istituto tecnico        62              29              46.77     
+GOTF00801D    G. GALILEI                       GORIZIA            Istituto tecnico        577             240             41.59     
+GOPS00101L    DUCA DEGLI ABRUZZI               GORIZIA            Liceo                   363             143             39.39     
+GOMM814015    SC. SEC. DI I GRADO V. LOCCHI    GORIZIA            Secondaria primo grado  306             117             38.24     
+GOAA814033    SC. DELL'INFANZIA ROSA AGAZZI    GORIZIA            Infanzia                55              21              38.18     
+GOSD007012    "M.FABIANI"                      GORIZIA            Liceo                   287             103             35.89     
+GOPC00101D    DANTE ALIGHIERI                  GORIZIA            Liceo                   131             44              33.59     
+GOEE814027    SCUOLA PRIMARIA GEN.A.PECORINI   GORIZIA            Primaria                175             58              33.14     
+GOEE810042    G.FERRETTI                       GORIZIA            Primaria                97              28              28.87     
+GOAA81204C    SCUOLA DELL'INFANZIA SONCEK      GORIZIA            Infanzia                47              13              27.66     
+GOAA81202A    SCUOLA DELL'INF. PIKA NOGAVICKA  GORIZIA            Infanzia                33              9               27.27     
+GOTF004016    "JURIJ VEGA" - LINGUA SLOVENA    GORIZIA            Istituto tecnico        33              9               27.27     
+GOEE81302B    FRANCESCO RISMONDO               GORIZIA            Primaria                128             34              26.56     
+GOPM00101N    SCIPIO SLATAPER                  GORIZIA            Liceo                   589             134             22.75     
+GOAA81001N    G. BOEMO                         GORIZIA            Infanzia                44              10              22.73     
+GOMM813019    GRAZIADIO ISAIA ASCOLI           GORIZIA            Secondaria primo grado  335             74              22.09     
+GOAA81004R    VIA DEL CARSO                    GORIZIA            Infanzia                50              11              22.0      
+GOMM81001T    PERCO                            GORIZIA            Secondaria primo grado  124             26              20.97     
+GOPC002019    PRIMOZ TRUBAR (LINGUA SLOVENA)   GORIZIA            Liceo                   39              8               20.51     
+GOEE81304D    G.UNGARETTI                      GORIZIA            Primaria                189             38              20.11     
+GOEE81001V    E.DE AMICIS                      GORIZIA            Primaria                91              16              17.58     
+GOTD00401X    ZIGA ZOIS (LINGUA SLOVENA)       GORIZIA            Istituto tecnico        85              14              16.47     
+GOAA81005T    BRIGATA AVELLINO                 GORIZIA            Infanzia                43              7               16.28     
+GOPM00201D    SIMON GREGORCIC (L.SLOVENA)      GORIZIA            Liceo                   152             24              15.79     
+GOAA812019    SCUOLA DELL'INF. PIKAPOLONICA    GORIZIA            Infanzia                26              4               15.38     
+GOEE81202G    SCUOLA PRIMARIA FRAN ERJAVEC     GORIZIA            Primaria                78              10              12.82     
+GOEE81201E    SCUOLA PRIMARIA OTON ZUPANCIC    GORIZIA            Primaria                112             14              12.5      
+GOMM81201D    SEC. I GRADO IVAN TRINKO (SLO)   GORIZIA            Secondaria primo grado  238             25              10.5      
+GOAA813037    SAN ROCCO                        GORIZIA            Infanzia                46              4               8.7       
+GOAA81203B    SCUOLA DELL'INFANZIA RINGARAJA   GORIZIA            Infanzia                64              5               7.81      
+GOEE81203L    SCUOLA PRIMARIA JOSIP ABRAM      GORIZIA            Primaria                41              2               4.88      
+GOAA813048    VIA GARZAROLLI                   GORIZIA            Infanzia                62              3               4.84      
+
+
+
+Classifica completa, anno 202122, scuole pubbliche, comune di PORDENONE
+CODICESCUOLA  DENOMINAZIONESCUOLA                      DESCRIZIONECOMUNE  TIPOSCUOLA              NUMEROSTUDENTI  STUDENTINONAVV  PERCNONAVV
+------------  ---------------------------------------  -----------------  ----------------------  --------------  --------------  ----------
+PNEE83203Q    PORDENONE-V.LE TRIESTE"GABELLI"          PORDENONE          Primaria                192             99              51.56     
+PNTN008013    ISTITUTO ISTRUZIONE SUPERIORE F. FLORA   PORDENONE          Istituto tecnico        192             99              51.56     
+PNTD01201R    ITSSE "ODORICO MATTIUSSI"                PORDENONE          Istituto tecnico        729             323             44.31     
+PNAA83201C    PORDENONE"VITTORIO EMANUELE II"          PORDENONE          Infanzia                67              28              41.79     
+PNRC00801T    ISTITUTO ISTRUZIONE SUPERIORE F. FLORA   PORDENONE          Istituto professionale  501             196             39.12     
+PNTL012017    ITS SETT.TEC.C.A.T GEOMETRI. S. PERTINI  PORDENONE          Istituto tecnico        346             121             34.97     
+PNTF01000A    ITST KENNEDY                             PORDENONE          Istituto tecnico        1544            530             34.33     
+PNPS010008    LS M. GRIGOLETTI                         PORDENONE          Liceo                   1601            548             34.23     
+PNAA833029    PORDENONE-VIA CAPPUCCINI                 PORDENONE          Infanzia                59              20              33.9      
+PNMM83201L    SMS CENTRO STORICO                       PORDENONE          Secondaria primo grado  274             92              33.58     
+PNAA83001R    PORDENONE-VIA MANTEGNA                   PORDENONE          Infanzia                68              22              32.35     
+PNEE83303G    PN-CAPPUCCINI"P.MARCO D'AVIANO"          PORDENONE          Primaria                99              31              31.31     
+PNEE83202P    PORDENONE-VIA MOLINARI"COLLODI"          PORDENONE          Primaria                85              25              29.41     
+PNEE83301D    PN-V. CARABINIERE "L.RADICE"             PORDENONE          Primaria                171             49              28.65     
+PNEE830045    PN-SAN GREGORIO "GASPARRE GOZZI          PORDENONE          Primaria                99              28              28.28     
+PNAA833018    PORDENONE-VIA FIAMME GIALLE              PORDENONE          Infanzia                124             35              28.23     
+PNAA83202D    PORDENONE-VIA BEATA DOMICILLA            PORDENONE          Infanzia                95              26              27.37     
+PNMM830011    TERZO DRUSIN                             PORDENONE          Secondaria primo grado  376             102             27.13     
+PNEE830012    PN-BORGOMEDUNA "E. DE AMICIS"            PORDENONE          Primaria                151             40              26.49     
+PNTF009017    I.T.I. MODA ZANUSSI                      PORDENONE          Istituto tecnico        192             49              25.52     
+PNMM83301C    SMS PIER PAOLO PASOLINI                  PORDENONE          Secondaria primo grado  385             96              24.94     
+PNPS00101E    ETTORE MAJORANA                          PORDENONE          Liceo                   1092            250             22.89     
+PNPC00101B    GIACOMO LEOPARDI                         PORDENONE          Liceo                   426             88              20.66     
+PNEE830034    PORDENONE-V.GOLDONI"A.ROSMINI"           PORDENONE          Primaria                192             37              19.27     
+PNAA83003V    PN-VILLANOVA VIA ADA NEGRI               PORDENONE          Infanzia                112             21              18.75     
+PNMM83101R    GIUSEPPE LOZER                           PORDENONE          Secondaria primo grado  461             86              18.66     
+PNEE83302E    PN-RORAIGRANDE "M. GRIGOLETTI"           PORDENONE          Primaria                216             39              18.06     
+PNEE83101T    PN-TORRE"ODORICO DA PORDENONE"           PORDENONE          Primaria                256             44              17.19     
+PNEE83102V    PORDENONE-VIA FONDA "G.NARVESA"          PORDENONE          Primaria                260             38              14.62     
+PNAA83002T    PORDENONE-VALLENONCELLO                  PORDENONE          Infanzia                59              8               13.56     
+PNEE830023    PN-VALLENONCELLO "L.DA VINCI"            PORDENONE          Primaria                91              10              10.99     
+PNEE83201N    PN-COMINA BASSA "IV NOVEMBRE"            PORDENONE          Primaria                200             20              10.0      
+PNAA83101L    PORDENONE-TORRE                          PORDENONE          Infanzia                103             5               4.85      
+
+
+
+Classifica completa, anno 202223, scuole pubbliche, comune di PORDENONE
+CODICESCUOLA  DENOMINAZIONESCUOLA                      DESCRIZIONECOMUNE  TIPOSCUOLA              NUMEROSTUDENTI  STUDENTINONAVV  PERCNONAVV
+------------  ---------------------------------------  -----------------  ----------------------  --------------  --------------  ----------
+PNEE83203Q    PORDENONE-V.LE TRIESTE"GABELLI"          PORDENONE          Primaria                179             96              53.63     
+PNAA833029    PORDENONE-VIA CAPPUCCINI                 PORDENONE          Infanzia                46              21              45.65     
+PNTD01201R    ITSSE "ODORICO MATTIUSSI"                PORDENONE          Istituto tecnico        796             356             44.72     
+PNAA83201C    PORDENONE"VITTORIO EMANUELE II"          PORDENONE          Infanzia                68              30              44.12     
+PNTN008013    ISTITUTO ISTRUZIONE SUPERIORE F. FLORA   PORDENONE          Istituto tecnico        183             77              42.08     
+PNTL012017    ITS SETT.TEC.C.A.T GEOMETRI. S. PERTINI  PORDENONE          Istituto tecnico        387             142             36.69     
+PNPS010008    LS M. GRIGOLETTI                         PORDENONE          Liceo                   1537            551             35.85     
+PNRC00801T    ISTITUTO ISTRUZIONE SUPERIORE F. FLORA   PORDENONE          Istituto professionale  507             181             35.7      
+PNAA83001R    PORDENONE-VIA MANTEGNA                   PORDENONE          Infanzia                69              24              34.78     
+PNAA83202D    PORDENONE-VIA BEATA DOMICILLA            PORDENONE          Infanzia                107             36              33.64     
+PNTF01000A    ITST KENNEDY                             PORDENONE          Istituto tecnico        1514            506             33.42     
+PNMM83201L    SMS CENTRO STORICO                       PORDENONE          Secondaria primo grado  266             86              32.33     
+PNEE83303G    PN-CAPPUCCINI"P.MARCO D'AVIANO"          PORDENONE          Primaria                98              29              29.59     
+PNEE830045    PN-SAN GREGORIO "GASPARRE GOZZI          PORDENONE          Primaria                99              29              29.29     
+PNAA833018    PORDENONE-VIA FIAMME GIALLE              PORDENONE          Infanzia                103             30              29.13     
+PNEE83202P    PORDENONE-VIA MOLINARI"COLLODI"          PORDENONE          Primaria                101             29              28.71     
+PNEE830012    PN-BORGOMEDUNA "E. DE AMICIS"            PORDENONE          Primaria                143             39              27.27     
+PNMM830011    TERZO DRUSIN                             PORDENONE          Secondaria primo grado  382             103             26.96     
+PNMM83301C    SMS PIER PAOLO PASOLINI                  PORDENONE          Secondaria primo grado  387             104             26.87     
+PNEE83301D    PN-V. CARABINIERE "L.RADICE"             PORDENONE          Primaria                174             46              26.44     
+PNTF009017    I.T.I. MODA ZANUSSI                      PORDENONE          Istituto tecnico        209             54              25.84     
+PNAA83101L    PORDENONE-TORRE                          PORDENONE          Infanzia                107             27              25.23     
+PNPS00101E    ETTORE MAJORANA                          PORDENONE          Liceo                   1108            262             23.65     
+PNAA83003V    PN-VILLANOVA VIA ADA NEGRI               PORDENONE          Infanzia                115             24              20.87     
+PNEE830034    PORDENONE-V.GOLDONI"A.ROSMINI"           PORDENONE          Primaria                198             40              20.2      
+PNMM83101R    GIUSEPPE LOZER                           PORDENONE          Secondaria primo grado  477             94              19.71     
+PNEE83302E    PN-RORAIGRANDE "M. GRIGOLETTI"           PORDENONE          Primaria                177             34              19.21     
+PNEE830023    PN-VALLENONCELLO "L.DA VINCI"            PORDENONE          Primaria                94              16              17.02     
+PNEE83102V    PORDENONE-VIA FONDA "G.NARVESA"          PORDENONE          Primaria                254             42              16.54     
+PNPC00101B    GIACOMO LEOPARDI                         PORDENONE          Liceo                   420             69              16.43     
+PNEE83101T    PN-TORRE"ODORICO DA PORDENONE"           PORDENONE          Primaria                238             38              15.97     
+PNAA83002T    PORDENONE-VALLENONCELLO                  PORDENONE          Infanzia                64              10              15.63     
+PNEE83201N    PN-COMINA BASSA "IV NOVEMBRE"            PORDENONE          Primaria                211             19              9.0       
+
+
+
+Classifica completa, anno 202122, scuole pubbliche, comune di TRIESTE
+CODICESCUOLA  DENOMINAZIONESCUOLA                  DESCRIZIONECOMUNE  TIPOSCUOLA              NUMEROSTUDENTI  STUDENTINONAVV  PERCNONAVV
+------------  -----------------------------------  -----------------  ----------------------  --------------  --------------  ----------
+TSRI00201D    NAUTICO T. DI SAVOIA - L. GALVANI    TRIESTE            Istituto professionale  310             188             60.65     
+TSTF003016    J. STEFAN-L.INS.SLOVENA              TRIESTE            Istituto tecnico        156             91              58.33     
+TSMM80101V    F.LLI FONDA SAVIO - A. MANZONI       TRIESTE            Secondaria primo grado  268             152             56.72     
+TSAA81602D    J. UKMAR - L.INS.SLOVENA             TRIESTE            Infanzia                17              9               52.94     
+TSMM81601L    I.CANKAR - L.INS.SLOVENA             TRIESTE            Secondaria primo grado  43              22              51.16     
+TSPM004011    GIOSUE' CARDUCCI                     TRIESTE            Liceo                   891             452             50.73     
+TSEE81702E    F.FINZGAR - L.INS.SLOVENA            TRIESTE            Primaria                50              25              50.0      
+TSEE801021    A. PITTONI                           TRIESTE            Primaria                185             89              48.11     
+TSAA812015    SCUOLA DELL'INFANZIA F. PANIZON      TRIESTE            Infanzia                44              21              47.73     
+TSPC02000N    FRANCESCO PETRARCA                   TRIESTE            Liceo                   931             439             47.15     
+TSAA817029    DI BARCOLA - L.INS.SLOVENA           TRIESTE            Infanzia                17              8               47.06     
+TSEE81601N    J.RIBICIC - L.INS.SLOVENA            TRIESTE            Primaria                51              24              47.06     
+TSMM81101D    GIUSEPPE CAPRIN                      TRIESTE            Secondaria primo grado  254             119             46.85     
+TSEE80101X    U. GASPARDIS                         TRIESTE            Primaria                371             173             46.63     
+TSRC001011    SCIPIONE DE SANDRINELLI              TRIESTE            Istituto professionale  438             204             46.58     
+TSSD01000L    ENRICO E UMBERTO NORDIO              TRIESTE            Liceo                   421             195             46.32     
+TSTE03000P    GRAZIA DELEDDA - MAX FABIANI         TRIESTE            Istituto tecnico        642             297             46.26     
+TSTD001018    LEONARDO DA VINCI - G.RINALDO CARLI  TRIESTE            Istituto tecnico        610             270             44.26     
+TSEE80903L    DUCA D'AOSTA                         TRIESTE            Primaria                242             106             43.8      
+TSTH00201T    NAUTICO T. DI SAVOIA DUCA DI GENOVA  TRIESTE            Istituto tecnico        449             193             42.98     
+TSMM81701C    SS.CIRILLO E METODIO-L.INS.SLOV      TRIESTE            Secondaria primo grado  122             52              42.62     
+TSTF010008    ALESSANDRO VOLTA                     TRIESTE            Istituto tecnico        675             286             42.37     
+TSPS02000R    GALILEO GALILEI                      TRIESTE            Liceo                   964             394             40.87     
+TSAA811019    BRUNO MUNARI                         TRIESTE            Infanzia                37              15              40.54     
+TSPC00401R    DANTE ALIGHIERI                      TRIESTE            Liceo                   311             126             40.51     
+TSAA817018    DI LONGERA - L.INS.SLOVENA           TRIESTE            Infanzia                10              4               40.0      
+TSPM02000T    A.M. SLOMSEK-L.INS.SLOVENA           TRIESTE            Liceo                   120             48              40.0      
+TSMM80901D    ANTONIO BERGAMAS                     TRIESTE            Secondaria primo grado  256             102             39.84     
+TSAA81603E    PIKI JAKOB- L.INS.SLOVENA            TRIESTE            Infanzia                28              11              39.29     
+TSTD030007    ZIGA ZOIS-L.INS.SLOVENA              TRIESTE            Istituto tecnico        65              25              38.46     
+TSEE81203C    SCUOLA PRIMARIA L. MAURO             TRIESTE            Primaria                211             81              38.39     
+TSMM813015    DIVISIONE JULIA                      TRIESTE            Secondaria primo grado  505             183             36.24     
+TSPS010006    F.PRESEREN-L.INS.SLOVENA             TRIESTE            Liceo                   287             103             35.89     
+TSEE81004T    D. LOVISATO                          TRIESTE            Primaria                92              33              35.87     
+TSMM80201P    F. RISMONDO                          TRIESTE            Secondaria primo grado  296             105             35.47     
+TSAA813011    MIELA REINA                          TRIESTE            Infanzia                82              29              35.37     
+TSEE81701D    O.ZUPANCIC - L.INS.SLOVENA           TRIESTE            Primaria                77              27              35.06     
+TSMM812019    SSIG M. CODERMATZ                    TRIESTE            Secondaria primo grado  232             79              34.05     
+TSMM80801N    DANTE ALIGHIERI                      TRIESTE            Secondaria primo grado  544             185             34.01     
+TSEE80901E    S. SLATAPER                          TRIESTE            Primaria                153             52              33.99     
+TSPS03000B    GUGLIELMO OBERDAN                    TRIESTE            Liceo                   1005            335             33.33     
+TSEE81101E    D. ROSSETTI                          TRIESTE            Primaria                246             78              31.71     
+TSEE81002Q    E. DE MARCHI                         TRIESTE            Primaria                79              25              31.65     
+TSMM814011    ADDOBBATI - BRUNNER                  TRIESTE            Secondaria primo grado  283             88              31.1      
+TSMM80301E    CARLO STUPARICH                      TRIESTE            Secondaria primo grado  227             70              30.84     
+TSEE81201A    SCUOLA PRIMARIA C. SUVICH            TRIESTE            Primaria                86              26              30.23     
+TSAA818025    M. STOKA - L.INS.SLOVENA             TRIESTE            Infanzia                27              8               29.63     
+TSAA805012    RUGGERO MANNA                        TRIESTE            Infanzia                44              13              29.55     
+TSEE813016    F. DARDI                             TRIESTE            Primaria                337             99              29.38     
+TSMM80701T    GIANCARLO ROLI                       TRIESTE            Secondaria primo grado  236             69              29.24     
+TSEE81001P    B. MARIN                             TRIESTE            Primaria                135             39              28.89     
+TSEE81603Q    I.GRBEC - L.INS.SLOVENA              TRIESTE            Primaria                7               2               28.57     
+TSMM81001N    ITALO SVEVO                          TRIESTE            Secondaria primo grado  350             100             28.57     
+TSAA812026    SC. DELL'INFANZIA FILZI-GREGO        TRIESTE            Infanzia                39              11              28.21     
+TSAA80902A    DUCA D'AOSTA                         TRIESTE            Infanzia                36              10              27.78     
+TSMM806012    MUZIO DE TOMMASINI                   TRIESTE            Secondaria primo grado  291             78              26.8      
+TSAA81102A    JEAN PIAGET                          TRIESTE            Infanzia                38              10              26.32     
+TSMM805016    CORSI G.                             TRIESTE            Secondaria primo grado  335             88              26.27     
+TSEE81802A    P.TRUBAR - L.INS.SLOVENA             TRIESTE            Primaria                35              9               25.71     
+TSEE81703G    F.MILCINSKI - L.INS.SLOVENA          TRIESTE            Primaria                67              17              25.37     
+TSEE805017    R. MANNA                             TRIESTE            Primaria                198             46              23.23     
+TSMM81501R    LIONELLO STOCK                       TRIESTE            Secondaria primo grado  463             106             22.89     
+TSAA818058    A. COK - L.INS.SLOVENA               TRIESTE            Infanzia                44              10              22.73     
+TSEE81202B    SC. PRIMARIA F.FILZI - A.GREGO       TRIESTE            Primaria                221             50              22.62     
+TSEE80801P    A. PADOA                             TRIESTE            Primaria                199             43              21.61     
+TSEE80302L    SERGIO LAGHI                         TRIESTE            Primaria                182             39              21.43     
+TSMM818018    S. KOSOVEL-L.INS.SLOVENA             TRIESTE            Secondaria primo grado  155             32              20.65     
+TSEE814023    U. SABA                              TRIESTE            Primaria                335             69              20.6      
+TSEE80301G    V. GIOTTI                            TRIESTE            Primaria                284             58              20.42     
+TSEE806013    A. DEGRASSI                          TRIESTE            Primaria                88              17              19.32     
+TSEE81003R    SAN GIUSTO MARTIRE                   TRIESTE            Primaria                224             43              19.2      
+TSEE80701V    F.LLI VISINTINI                      TRIESTE            Primaria                152             28              18.42     
+TSEE814034    E.TARABOCHIA                         TRIESTE            Primaria                177             32              18.08     
+TSEE80802Q    N. SAURO                             TRIESTE            Primaria                223             40              17.94     
+TSEE807042    DON L. MILANI                        TRIESTE            Primaria                95              17              17.89     
+TSAA80301A    SERGIO LAGHI                         TRIESTE            Infanzia                34              6               17.65     
+TSAA818036    J. KOSUTA - L.INS.SLOVENA            TRIESTE            Infanzia                17              3               17.65     
+TSEE805028    V. LONGO                             TRIESTE            Primaria                120             21              17.5      
+TSAA81401R    DI BARCOLA                           TRIESTE            Infanzia                29              5               17.24     
+TSEE818019    F.BEVK - L.INS.SLOVENA               TRIESTE            Primaria                59              10              16.95     
+TSAA806052    DI PROSECCO                          TRIESTE            Infanzia                18              3               16.67     
+TSEE81103L    G. RODARI                            TRIESTE            Primaria                154             25              16.23     
+TSEE81501T    E. MORPURGO                          TRIESTE            Primaria                418             67              16.03     
+TSEE81803B    P.TOMAZIC - L.INS.SLOVENA            TRIESTE            Primaria                32              5               15.63     
+TSAA818014    U. VRABEC - L.INS.SLOVENA            TRIESTE            Infanzia                26              4               15.38     
+TSEE81804C    A.CERNIGOJ - L.INS.SLOVENA           TRIESTE            Primaria                46              7               15.22     
+TSAA818047    E. KRALJ - L.INS.SLOVENA             TRIESTE            Infanzia                20              3               15.0      
+TSEE806046    G. VENEZIAN                          TRIESTE            Primaria                76              11              14.47     
+TSEE806035    J. KUGY                              TRIESTE            Primaria                122             17              13.93     
+TSAA80801D    MARINA SPACCINI                      TRIESTE            Infanzia                65              9               13.85     
+TSEE80203T    C. COLLODI                           TRIESTE            Primaria                175             23              13.14     
+TSEE80202R    S. PERTINI                           TRIESTE            Primaria                206             26              12.62     
+TSAA80704R    STELLE ALPINE                        TRIESTE            Infanzia                53              6               11.32     
+TSEE800047    SANTA CROCE                          TRIESTE            Primaria                64              7               10.94     
+TSAA80201E    DI MELARA                            TRIESTE            Infanzia                84              9               10.71     
+TSAA805023    FULVIO TOMIZZA                       TRIESTE            Infanzia                56              6               10.71     
+TSAA80602V    SILVIO RUTTERI                       TRIESTE            Infanzia                41              4               9.76      
+TSEE81602P    GREGORIC STEPANCIC - L.INS.SLOV      TRIESTE            Primaria                11              1               9.09      
+TSAA80601T    MONS.EDOARDO MARZARI                 TRIESTE            Infanzia                35              3               8.57      
+TSEE81102G    G. FOSCHIATTI                        TRIESTE            Primaria                138             9               6.52      
+TSAA800042    DI SANTA CROCE                       TRIESTE            Infanzia                19              1               5.26      
+TSEE806024    C. LONA                              TRIESTE            Primaria                107             5               4.67      
+TSAA80603X    MARCELLO FRAULINI                    TRIESTE            Infanzia                43              2               4.65      
+TSAA806063    ANTONIO ILLERSBERG                   TRIESTE            Infanzia                20              0               0.0       
+
+
+
+Classifica completa, anno 202223, scuole pubbliche, comune di TRIESTE
+CODICESCUOLA  DENOMINAZIONESCUOLA                  DESCRIZIONECOMUNE  TIPOSCUOLA              NUMEROSTUDENTI  STUDENTINONAVV  PERCNONAVV
+------------  -----------------------------------  -----------------  ----------------------  --------------  --------------  ----------
+TSRC001011    SCIPIONE DE SANDRINELLI              TRIESTE            Istituto professionale  439             300             68.34     
+TSTD001018    LEONARDO DA VINCI - G.RINALDO CARLI  TRIESTE            Istituto tecnico        589             385             65.37     
+TSRI00201D    NAUTICO T. DI SAVOIA - L. GALVANI    TRIESTE            Istituto professionale  326             201             61.66     
+TSEE81601N    J.RIBICIC - L.INS.SLOVENA            TRIESTE            Primaria                49              30              61.22     
+TSMM80101V    F.LLI FONDA SAVIO - A. MANZONI       TRIESTE            Secondaria primo grado  270             158             58.52     
+TSAA811019    BRUNO MUNARI                         TRIESTE            Infanzia                24              14              58.33     
+TSTF003016    J. STEFAN-L.INS.SLOVENA              TRIESTE            Istituto tecnico        152             84              55.26     
+TSAA812015    SCUOLA DELL'INFANZIA F. PANIZON      TRIESTE            Infanzia                49              27              55.1      
+TSMM81601L    I.CANKAR - L.INS.SLOVENA             TRIESTE            Secondaria primo grado  49              27              55.1      
+TSEE81702E    F.FINZGAR - L.INS.SLOVENA            TRIESTE            Primaria                44              24              54.55     
+TSSD01000L    ENRICO E UMBERTO NORDIO              TRIESTE            Liceo                   455             245             53.85     
+TSMM81701C    SS.CIRILLO E METODIO-L.INS.SLOV      TRIESTE            Secondaria primo grado  115             59              51.3      
+TSMM81101D    GIUSEPPE CAPRIN                      TRIESTE            Secondaria primo grado  239             122             51.05     
+TSPC02000N    FRANCESCO PETRARCA                   TRIESTE            Liceo                   861             439             50.99     
+TSAA817029    DI BARCOLA - L.INS.SLOVENA           TRIESTE            Infanzia                18              9               50.0      
+TSEE801021    A. PITTONI                           TRIESTE            Primaria                189             92              48.68     
+TSTH00201T    NAUTICO T. DI SAVOIA DUCA DI GENOVA  TRIESTE            Istituto tecnico        404             195             48.27     
+TSEE80101X    U. GASPARDIS                         TRIESTE            Primaria                381             183             48.03     
+TSTE03000P    GRAZIA DELEDDA - MAX FABIANI         TRIESTE            Istituto tecnico        592             284             47.97     
+TSMM80301E    CARLO STUPARICH                      TRIESTE            Secondaria primo grado  218             101             46.33     
+TSEE81004T    D. LOVISATO                          TRIESTE            Primaria                92              42              45.65     
+TSAA817018    DI LONGERA - L.INS.SLOVENA           TRIESTE            Infanzia                11              5               45.45     
+TSMM80901D    ANTONIO BERGAMAS                     TRIESTE            Secondaria primo grado  233             105             45.06     
+TSAA81602D    J. UKMAR - L.INS.SLOVENA             TRIESTE            Infanzia                14              6               42.86     
+TSEE80903L    DUCA D'AOSTA                         TRIESTE            Primaria                221             91              41.18     
+TSTD030007    ZIGA ZOIS-L.INS.SLOVENA              TRIESTE            Istituto tecnico        82              33              40.24     
+TSMM80201P    F. RISMONDO                          TRIESTE            Secondaria primo grado  288             110             38.19     
+TSPS02000R    GALILEO GALILEI                      TRIESTE            Liceo                   916             349             38.1      
+TSPM004011    GIOSUE' CARDUCCI                     TRIESTE            Liceo                   921             349             37.89     
+TSEE80901E    S. SLATAPER                          TRIESTE            Primaria                157             59              37.58     
+TSPM02000T    A.M. SLOMSEK-L.INS.SLOVENA           TRIESTE            Liceo                   112             42              37.5      
+TSMM81001N    ITALO SVEVO                          TRIESTE            Secondaria primo grado  395             148             37.47     
+TSMM813015    DIVISIONE JULIA                      TRIESTE            Secondaria primo grado  523             192             36.71     
+TSMM812019    SSIG M. CODERMATZ                    TRIESTE            Secondaria primo grado  218             80              36.7      
+TSTF010008    ALESSANDRO VOLTA                     TRIESTE            Istituto tecnico        736             266             36.14     
+TSEE81201A    SCUOLA PRIMARIA C. SUVICH            TRIESTE            Primaria                86              31              36.05     
+TSPS010006    F.PRESEREN-L.INS.SLOVENA             TRIESTE            Liceo                   293             104             35.49     
+TSEE805017    R. MANNA                             TRIESTE            Primaria                200             70              35.0      
+TSMM80801N    DANTE ALIGHIERI                      TRIESTE            Secondaria primo grado  568             192             33.8      
+TSAA813011    MIELA REINA                          TRIESTE            Infanzia                89              30              33.71     
+TSPS03000B    GUGLIELMO OBERDAN                    TRIESTE            Liceo                   1035            347             33.53     
+TSEE81203C    SCUOLA PRIMARIA L. MAURO             TRIESTE            Primaria                227             76              33.48     
+TSAA818014    U. VRABEC - L.INS.SLOVENA            TRIESTE            Infanzia                21              7               33.33     
+TSEE81701D    O.ZUPANCIC - L.INS.SLOVENA           TRIESTE            Primaria                73              24              32.88     
+TSEE81703G    F.MILCINSKI - L.INS.SLOVENA          TRIESTE            Primaria                69              22              31.88     
+TSEE813016    F. DARDI                             TRIESTE            Primaria                343             105             30.61     
+TSEE81802A    P.TRUBAR - L.INS.SLOVENA             TRIESTE            Primaria                33              10              30.3      
+TSAA812026    SC. DELL'INFANZIA FILZI-GREGO        TRIESTE            Infanzia                40              12              30.0      
+TSEE81101E    D. ROSSETTI                          TRIESTE            Primaria                228             68              29.82     
+TSAA81603E    PIKI JAKOB- L.INS.SLOVENA            TRIESTE            Infanzia                27              8               29.63     
+TSPC00401R    DANTE ALIGHIERI                      TRIESTE            Liceo                   355             103             29.01     
+TSAA818036    J. KOSUTA - L.INS.SLOVENA            TRIESTE            Infanzia                14              4               28.57     
+TSMM80701T    GIANCARLO ROLI                       TRIESTE            Secondaria primo grado  247             68              27.53     
+TSEE81603Q    I.GRBEC - L.INS.SLOVENA              TRIESTE            Primaria                11              3               27.27     
+TSMM81501R    LIONELLO STOCK                       TRIESTE            Secondaria primo grado  452             122             26.99     
+TSMM814011    ADDOBBATI - BRUNNER                  TRIESTE            Secondaria primo grado  277             74              26.71     
+TSMM818018    S. KOSOVEL-L.INS.SLOVENA             TRIESTE            Secondaria primo grado  155             40              25.81     
+TSMM805016    CORSI G.                             TRIESTE            Secondaria primo grado  312             80              25.64     
+TSEE814023    U. SABA                              TRIESTE            Primaria                293             74              25.26     
+TSAA818047    E. KRALJ - L.INS.SLOVENA             TRIESTE            Infanzia                20              5               25.0      
+TSAA800042    DI SANTA CROCE                       TRIESTE            Infanzia                25              6               24.0      
+TSEE81202B    SC. PRIMARIA F.FILZI - A.GREGO       TRIESTE            Primaria                215             51              23.72     
+TSEE81003R    SAN GIUSTO MARTIRE                   TRIESTE            Primaria                208             49              23.56     
+TSAA80902A    DUCA D'AOSTA                         TRIESTE            Infanzia                34              8               23.53     
+TSEE80801P    A. PADOA                             TRIESTE            Primaria                200             46              23.0      
+TSAA812037    SC. DELL'INFANZIA DI LONGERA         TRIESTE            Infanzia                14              3               21.43     
+TSEE805028    V. LONGO                             TRIESTE            Primaria                120             25              20.83     
+TSEE807042    DON L. MILANI                        TRIESTE            Primaria                88              18              20.45     
+TSEE80302L    SERGIO LAGHI                         TRIESTE            Primaria                178             36              20.22     
+TSAA818025    M. STOKA - L.INS.SLOVENA             TRIESTE            Infanzia                31              6               19.35     
+TSEE814034    E.TARABOCHIA                         TRIESTE            Primaria                168             32              19.05     
+TSEE80802Q    N. SAURO                             TRIESTE            Primaria                242             45              18.6      
+TSAA805012    RUGGERO MANNA                        TRIESTE            Infanzia                46              8               17.39     
+TSEE80301G    V. GIOTTI                            TRIESTE            Primaria                271             45              16.61     
+TSAA81401R    DI BARCOLA                           TRIESTE            Infanzia                32              5               15.63     
+TSEE80701V    F.LLI VISINTINI                      TRIESTE            Primaria                160             25              15.63     
+TSEE81001P    B. MARIN                             TRIESTE            Primaria                130             20              15.38     
+TSEE80203T    C. COLLODI                           TRIESTE            Primaria                170             26              15.29     
+TSEE80202R    S. PERTINI                           TRIESTE            Primaria                199             30              15.08     
+TSAA818058    A. COK - L.INS.SLOVENA               TRIESTE            Infanzia                41              6               14.63     
+TSEE81103L    G. RODARI                            TRIESTE            Primaria                144             21              14.58     
+TSEE818019    F.BEVK - L.INS.SLOVENA               TRIESTE            Primaria                62              9               14.52     
+TSEE800047    SANTA CROCE                          TRIESTE            Primaria                76              11              14.47     
+TSEE806035    J. KUGY                              TRIESTE            Primaria                125             18              14.4      
+TSAA80602V    SILVIO RUTTERI                       TRIESTE            Infanzia                38              5               13.16     
+TSAA80301A    SERGIO LAGHI                         TRIESTE            Infanzia                40              5               12.5      
+TSAA80801D    MARINA SPACCINI                      TRIESTE            Infanzia                66              8               12.12     
+TSAA80704R    STELLE ALPINE                        TRIESTE            Infanzia                67              8               11.94     
+TSMM806012    MUZIO DE TOMMASINI                   TRIESTE            Secondaria primo grado  303             36              11.88     
+TSAA80201E    DI MELARA                            TRIESTE            Infanzia                60              7               11.67     
+TSAA81102A    JEAN PIAGET                          TRIESTE            Infanzia                27              3               11.11     
+TSAA80603X    MARCELLO FRAULINI                    TRIESTE            Infanzia                37              4               10.81     
+TSAA80601T    MONS.EDOARDO MARZARI                 TRIESTE            Infanzia                38              4               10.53     
+TSEE81002Q    E. DE MARCHI                         TRIESTE            Primaria                87              8               9.2       
+TSEE81102G    G. FOSCHIATTI                        TRIESTE            Primaria                154             13              8.44      
+TSEE81804C    A.CERNIGOJ - L.INS.SLOVENA           TRIESTE            Primaria                38              3               7.89      
+TSEE806024    C. LONA                              TRIESTE            Primaria                91              7               7.69      
+TSEE81501T    E. MORPURGO                          TRIESTE            Primaria                420             29              6.9       
+TSEE81803B    P.TOMAZIC - L.INS.SLOVENA            TRIESTE            Primaria                30              2               6.67      
+TSAA805023    FULVIO TOMIZZA                       TRIESTE            Infanzia                64              3               4.69      
+TSAA806052    DI PROSECCO                          TRIESTE            Infanzia                18              0               0.0       
+TSAA806063    ANTONIO ILLERSBERG                   TRIESTE            Infanzia                18              0               0.0       
+TSEE806013    A. DEGRASSI                          TRIESTE            Primaria                80              0               0.0       
+TSEE806046    G. VENEZIAN                          TRIESTE            Primaria                68              0               0.0       
+
+
+
+Classifica completa, anno 202122, scuole pubbliche, comune di UDINE
+CODICESCUOLA  DENOMINAZIONESCUOLA                     DESCRIZIONECOMUNE  TIPOSCUOLA              NUMEROSTUDENTI  STUDENTINONAVV  PERCNONAVV
+------------  --------------------------------------  -----------------  ----------------------  --------------  --------------  ----------
+UDEE857045    DANTE ALIGHIERI                         UDINE              Primaria                58              29              50.0      
+UDAA85701R    MONS. COSSETTINI UDINE                  UDINE              Infanzia                52              25              48.08     
+UDAA85802N    UDINE-"M. FORTE"                        UDINE              Infanzia                62              27              43.55     
+UDEE85803X    UDINE-"A. FRIZ"                         UDINE              Primaria                118             51              43.22     
+UDAA842035    UDINE-"A. PICK"                         UDINE              Infanzia                51              22              43.14     
+UDEE84203A    "LUIGI GARZONI" - VIA RONCHI            UDINE              Primaria                283             116             40.99     
+UDEE857023    " LEA D'ORLANDI "                       UDINE              Primaria                99              39              39.39     
+UDAA85703V    UDINE/ L. PECILE                        UDINE              Infanzia                72              28              38.89     
+UDPS016018    SEDE ASS. ITI UD                        UDINE              Liceo                   532             197             37.03     
+UDMM843013    FERMI - UDINE                           UDINE              Secondaria primo grado  268             99              36.94     
+UDAA841028    PIETRO BENEDETTI                        UDINE              Infanzia                69              25              36.23     
+UDEE84103E    SAN DOMENICO                            UDINE              Primaria                62              22              35.48     
+UDTF01601A    ITI "A. MALIGNANI" UDINE                UDINE              Istituto tecnico        1908            672             35.22     
+UDAA84302X    UDINE/ PAPAROTTI                        UDINE              Infanzia                58              20              34.48     
+UDAA85803P    UDINE-"SACRO CUORE"                     UDINE              Infanzia                21              7               33.33     
+UDPC010005    LICEO CLASSICO "J. STELLINI" UDINE      UDINE              Liceo                   602             196             32.56     
+UDEE84105L    GIANNI RODARI                           UDINE              Primaria                188             61              32.45     
+UDEE843025    A.ZARDINI/CUSSIGNACCO                   UDINE              Primaria                155             50              32.26     
+UDAA842024    UDINE - "SORELLE AGAZZI"                UDINE              Infanzia                69              21              30.43     
+UDAA85702T    MARCO VOLPE                             UDINE              Infanzia                80              24              30.0      
+UDMM842017    VALUSSI - UDINE                         UDINE              Secondaria primo grado  291             87              29.9      
+UDAA84403R    UDINE-"G. ZAMBELLI"                     UDINE              Infanzia                73              21              28.77     
+UDSD01000P    LICEO ARTISTICO "G. SELLO " UD          UDINE              Liceo                   1123            323             28.76     
+UDAA84301V    "VIA BALDASSERIA MEDIA"                 UDINE              Infanzia                106             30              28.3      
+UDRC01701L    IPSCAR "B. STRINGHER" UDINE             UDINE              Istituto professionale  854             239             27.99     
+UDMM85801R    G. MARCONI - E. BELLAVITIS              UDINE              Secondaria primo grado  492             136             27.64     
+UDPS010008    LICEO SCIENTIFICO "G. MARINELLI" UDINE  UDINE              Liceo                   1503            411             27.35     
+UDTD010004    ITC "A. ZANON " UDINE                   UDINE              Istituto tecnico        1117            300             26.86     
+UDEE843014    BOSCHETTI ALBERTI                       UDINE              Primaria                253             66              26.09     
+UDEE842029    UDINE-"P. ZORUTTI"                      UDINE              Primaria                145             37              25.52     
+UDTL01000E    ITG "G.G. MARINONI" UDINE               UDINE              Istituto tecnico        819             209             25.52     
+UDPS05000P    LICEO SCIENTIFICO "N. COPERNICO" UDINE  UDINE              Liceo                   1346            319             23.7      
+UDTN01701T    SEDE ASS. ITT "B. STRINGHER" UDINE      UDINE              Istituto tecnico        204             47              23.04     
+UDPM010009    LICEO "CATERINA PERCOTO"                UDINE              Liceo                   1145            258             22.53     
+UDMM857011    MANZONI - UDINE                         UDINE              Secondaria primo grado  540             121             22.41     
+UDEE843047    ADA NEGRI                               UDINE              Primaria                140             31              22.14     
+UDEE84205C    " S. PELLICO ". S. OSVALDO              UDINE              Primaria                115             25              21.74     
+UDPM040005    ISTITUTO MAGISTRALE UCCELLIS            UDINE              Liceo                   673             145             21.55     
+UDEE858041    UDINE-"E. GIRARDINI"                    UDINE              Primaria                108             23              21.3      
+UDAA841039    I MAGGIO                                UDINE              Infanzia                39              8               20.51     
+UDMM84401V    ELLERO - UDINE                          UDINE              Secondaria primo grado  426             87              20.42     
+UDAA84401P    UDINE-"VIA D'ARTEGNA"                   UDINE              Infanzia                64              13              20.31     
+UDAA842057    VIA LAIPACCO                            UDINE              Infanzia                20              4               20.0      
+UDTD02101G    DEGANUTTI                               UDINE              Istituto tecnico        600             110             18.33     
+UDEE844043    UDINE-"IPPOLITO NIEVO"                  UDINE              Primaria                262             38              14.5      
+UDEE85801T    UDINE-"G. MAZZINI"                      UDINE              Primaria                103             14              13.59     
+UDEE85802V    " G. CARDUCCI " UDINE                   UDINE              Primaria                159             21              13.21     
+UDAA85801L    UDINE-"A. GABELLI"                      UDINE              Infanzia                58              7               12.07     
+UDAA84105B    ARCHIMEDE TAVERNA                       UDINE              Infanzia                75              9               12.0      
+UDRI040009    IPSIA "G. CECONI" UDINE                 UDINE              Istituto professionale  658             75              11.4      
+UDEE844021    " G. PASCOLI " VIA PORDENONE            UDINE              Primaria                151             17              11.26     
+UDEE84401X    TOPPO WASSERMANN                        UDINE              Primaria                126             10              7.94      
+UDEE857012    E. DE AMICIS                            UDINE              Primaria                81              6               7.41      
+UDEE84106N    DIVISIONE ALPINA JULIA                  UDINE              Primaria                111             8               7.21      
+UDAA841017    GIACOMO CENTAZZO                        UDINE              Infanzia                39              2               5.13      
+UDEE84101C    ENRICO FRUCH                            UDINE              Primaria                119             6               5.04      
+UDMM00800Q    EDUCANDATO UCCELLIS                     UDINE              Secondaria primo grado  198             5               2.53      
+UDEE00801T    COLLEGIO UCCELLIS                       UDINE              Primaria                241             5               2.07      
+
+
+
+Classifica completa, anno 202223, scuole pubbliche, comune di UDINE
+CODICESCUOLA  DENOMINAZIONESCUOLA                     DESCRIZIONECOMUNE  TIPOSCUOLA              NUMEROSTUDENTI  STUDENTINONAVV  PERCNONAVV
+------------  --------------------------------------  -----------------  ----------------------  --------------  --------------  ----------
+UDAA84302X    UDINE/ PAPAROTTI                        UDINE              Infanzia                59              29              49.15     
+UDEE84203A    "LUIGI GARZONI" - VIA RONCHI            UDINE              Primaria                261             119             45.59     
+UDEE85803X    UDINE-"A. FRIZ"                         UDINE              Primaria                110             49              44.55     
+UDAA842035    UDINE-"A. PICK"                         UDINE              Infanzia                54              24              44.44     
+UDEE857045    DANTE ALIGHIERI                         UDINE              Primaria                57              23              40.35     
+UDMM843013    FERMI - UDINE                           UDINE              Secondaria primo grado  261             104             39.85     
+UDEE857023    " LEA D'ORLANDI "                       UDINE              Primaria                101             38              37.62     
+UDAA84301V    "VIA BALDASSERIA MEDIA"                 UDINE              Infanzia                106             39              36.79     
+UDAA85802N    UDINE-"M. FORTE"                        UDINE              Infanzia                64              23              35.94     
+UDAA85701R    MONS. COSSETTINI UDINE                  UDINE              Infanzia                59              21              35.59     
+UDPS016018    SEDE ASS. ITI UD                        UDINE              Liceo                   583             205             35.16     
+UDTF01601A    ITI "A. MALIGNANI" UDINE                UDINE              Istituto tecnico        1850            650             35.14     
+UDEE843025    A.ZARDINI/CUSSIGNACCO                   UDINE              Primaria                146             49              33.56     
+UDAA85702T    MARCO VOLPE                             UDINE              Infanzia                60              20              33.33     
+UDMM842017    VALUSSI - UDINE                         UDINE              Secondaria primo grado  295             97              32.88     
+UDEE84103E    SAN DOMENICO                            UDINE              Primaria                52              16              30.77     
+UDEE84105L    GIANNI RODARI                           UDINE              Primaria                195             60              30.77     
+UDAA841028    PIETRO BENEDETTI                        UDINE              Infanzia                76              23              30.26     
+UDAA85703V    UDINE/ L. PECILE                        UDINE              Infanzia                67              20              29.85     
+UDEE843014    BOSCHETTI ALBERTI                       UDINE              Primaria                239             71              29.71     
+UDTD010004    ITC "A. ZANON " UDINE                   UDINE              Istituto tecnico        1079            314             29.1      
+UDSD01000P    LICEO ARTISTICO "G. SELLO " UD          UDINE              Liceo                   1063            304             28.6      
+UDAA85803P    UDINE-"SACRO CUORE"                     UDINE              Infanzia                35              10              28.57     
+UDPS010008    LICEO SCIENTIFICO "G. MARINELLI" UDINE  UDINE              Liceo                   1409            392             27.82     
+UDPM010009    LICEO "CATERINA PERCOTO"                UDINE              Liceo                   1128            313             27.75     
+UDEE842029    UDINE-"P. ZORUTTI"                      UDINE              Primaria                143             39              27.27     
+UDMM85801R    G. MARCONI - E. BELLAVITIS              UDINE              Secondaria primo grado  499             135             27.05     
+UDRC01701L    IPSCAR "B. STRINGHER" UDINE             UDINE              Istituto professionale  746             199             26.68     
+UDAA842057    VIA LAIPACCO                            UDINE              Infanzia                19              5               26.32     
+UDTL01000E    ITG "G.G. MARINONI" UDINE               UDINE              Istituto tecnico        845             217             25.68     
+UDEE843047    ADA NEGRI                               UDINE              Primaria                160             41              25.63     
+UDMM857011    MANZONI - UDINE                         UDINE              Secondaria primo grado  528             135             25.57     
+UDAA84401P    UDINE-"VIA D'ARTEGNA"                   UDINE              Infanzia                53              13              24.53     
+UDPM040005    ISTITUTO MAGISTRALE UCCELLIS            UDINE              Liceo                   694             168             24.21     
+UDEE858041    UDINE-"E. GIRARDINI"                    UDINE              Primaria                88              21              23.86     
+UDRC021018    DEGANUTTI                               UDINE              Istituto professionale  21              5               23.81     
+UDTN01701T    SEDE ASS. ITT "B. STRINGHER" UDINE      UDINE              Istituto tecnico        176             39              22.16     
+UDAA84403R    UDINE-"G. ZAMBELLI"                     UDINE              Infanzia                70              14              20.0      
+UDAA842024    UDINE - "SORELLE AGAZZI"                UDINE              Infanzia                66              13              19.7      
+UDEE84205C    " S. PELLICO ". S. OSVALDO              UDINE              Primaria                118             23              19.49     
+UDEE844043    UDINE-"IPPOLITO NIEVO"                  UDINE              Primaria                262             48              18.32     
+UDMM84401V    ELLERO - UDINE                          UDINE              Secondaria primo grado  408             74              18.14     
+UDPS05000P    LICEO SCIENTIFICO "N. COPERNICO" UDINE  UDINE              Liceo                   1340            209             15.6      
+UDAA841017    GIACOMO CENTAZZO                        UDINE              Infanzia                33              5               15.15     
+UDTD02101G    DEGANUTTI                               UDINE              Istituto tecnico        561             80              14.26     
+UDRI040009    IPSIA "G. CECONI" UDINE                 UDINE              Istituto professionale  649             88              13.56     
+UDPC010005    LICEO CLASSICO "J. STELLINI" UDINE      UDINE              Liceo                   568             72              12.68     
+UDEE844021    " G. PASCOLI " VIA PORDENONE            UDINE              Primaria                124             15              12.1      
+UDEE85801T    UDINE-"G. MAZZINI"                      UDINE              Primaria                103             12              11.65     
+UDAA841039    I MAGGIO                                UDINE              Infanzia                43              5               11.63     
+UDAA85801L    UDINE-"A. GABELLI"                      UDINE              Infanzia                62              7               11.29     
+UDEE85802V    " G. CARDUCCI " UDINE                   UDINE              Primaria                146             16              10.96     
+UDEE84401X    TOPPO WASSERMANN                        UDINE              Primaria                122             13              10.66     
+UDAA84105B    ARCHIMEDE TAVERNA                       UDINE              Infanzia                72              7               9.72      
+UDEE857012    E. DE AMICIS                            UDINE              Primaria                83              7               8.43      
+UDEE84106N    DIVISIONE ALPINA JULIA                  UDINE              Primaria                109             7               6.42      
+UDEE84101C    ENRICO FRUCH                            UDINE              Primaria                128             8               6.25      
+UDEE00801T    COLLEGIO UCCELLIS                       UDINE              Primaria                234             7               2.99      
+UDMM00800Q    EDUCANDATO UCCELLIS                     UDINE              Secondaria primo grado  196             2               1.02      
+
+
+
+Adozione libri di testo per AA nelle classi delle scuole primarie del Friuli Venezia Giulia
+CLASSI  TITOLO                      CODICESCUOLA  DENOMINAZIONESCUOLA              DESCRIZIONECOMUNE    PROVINCIA
+------  --------------------------  ------------  -------------------------------  -------------------  ---------
+8       INTORNO A NOI CLASSE 1-2-3  PNEE82301V    ROVEREDO IN PIANO"ENRICO FERMI"  ROVEREDO IN PIANO    PORDENONE
+7       INTORNO A NOI CLASSE 1-2-3  GOEE802021    D.ALIGHIERI                      GRADISCA D'ISONZO    GORIZIA  
+6       INTORNO A NOI CLASSE 1-2-3  TSEE80202R    S. PERTINI                       TRIESTE              TRIESTE  
+5       INTORNO A NOI CLASSE 4-5    PNEE82301V    ROVEREDO IN PIANO"ENRICO FERMI"  ROVEREDO IN PIANO    PORDENONE
+4       INTORNO A NOI CLASSE 1-2-3  PNEE82302X    SAN QUIRINO "UGO FOSCOLO"        SAN QUIRINO          PORDENONE
+4       INTORNO A NOI CLASSE 1-2-3  UDEE849024    "ANNA FABRIS"CODROIPO            CODROIPO             UDINE    
+4       INTORNO A NOI CLASSE 4-5    GOEE802021    D.ALIGHIERI                      GRADISCA D'ISONZO    GORIZIA  
+4       INTORNO A NOI CLASSE 4-5    TSEE80202R    S. PERTINI                       TRIESTE              TRIESTE  
+3       ALTERNATIVAMENTE 1/2/3      GOEE806017    C. COLLODI                       FOGLIANO REDIPUGLIA  GORIZIA  
+3       INTORNO A NOI CLASSE 1-2-3  GOEE80003A    ALESSANDRO MANZONI               CORMONS              GORIZIA  
+3       INTORNO A NOI CLASSE 1-2-3  GOEE80005C    VITTORINO DA FELTRE              CORMONS              GORIZIA  
+3       INTORNO A NOI CLASSE 1-2-3  GOEE80201X    R. PITTERI                       FARRA D'ISONZO       GORIZIA  
+3       INTORNO A NOI CLASSE 1-2-3  GOEE80303T    DUCA D'AOSTA                     MONFALCONE           GORIZIA  
+3       INTORNO A NOI CLASSE 4-5    PNEE82302X    SAN QUIRINO "UGO FOSCOLO"        SAN QUIRINO          PORDENONE
+3       INTORNO A NOI CLASSE 4-5    UDEE849024    "ANNA FABRIS"CODROIPO            CODROIPO             UDINE    
+2       ALTERNATIVAMENTE 1/2/3      UDEE822013    "A. MANZONI" - RIVIGNANO         RIVIGNANO TEOR       UDINE    
+2       ALTERNATIVAMENTE 1/2/3      UDEE822024    "G. PASCOLI" - TEOR              RIVIGNANO TEOR       UDINE    
+2       ALTERNATIVAMENTE 4/5        GOEE806017    C. COLLODI                       FOGLIANO REDIPUGLIA  GORIZIA  
+2       INTORNO A NOI CLASSE 1-2-3  GOEE80402L    C. BATTISTI                      MONFALCONE           GORIZIA  
+2       INTORNO A NOI CLASSE 1-2-3  UDEE849035    "IPPOLITO NIEVO"-VARMO           VARMO                UDINE    
+2       INTORNO A NOI CLASSE 1-2-3  UDEE849046    RISULTIVE BERTIOLO               BERTIOLO             UDINE    
+2       INTORNO A NOI CLASSE 4-5    GOEE80003A    ALESSANDRO MANZONI               CORMONS              GORIZIA  
+2       INTORNO A NOI CLASSE 4-5    GOEE80005C    VITTORINO DA FELTRE              CORMONS              GORIZIA  
+2       INTORNO A NOI CLASSE 4-5    GOEE80201X    R. PITTERI                       FARRA D'ISONZO       GORIZIA  
+2       INTORNO A NOI CLASSE 4-5    GOEE80402L    C. BATTISTI                      MONFALCONE           GORIZIA  
+2       INTORNO A NOI CLASSE 4-5    UDEE849013    "G.B. CANDOTTI " CODROIPO        CODROIPO             UDINE    
+2       INTORNO A NOI CLASSE 4-5    UDEE849035    "IPPOLITO NIEVO"-VARMO           VARMO                UDINE    
+2       INTORNO A NOI CLASSE 4-5    UDEE849046    RISULTIVE BERTIOLO               BERTIOLO             UDINE    
+1       ALTERNATIVAMENTE 1/2/3      UDEE822035    "A. MANZONI" - POCENIA           POCENIA              UDINE    
+1       ALTERNATIVAMENTE 4/5        UDEE822035    "A. MANZONI" - POCENIA           POCENIA              UDINE    
+1       INTORNO A NOI CLASSE 1-2-3  UDEE822013    "A. MANZONI" - RIVIGNANO         RIVIGNANO TEOR       UDINE    
+1       INTORNO A NOI CLASSE 1-2-3  UDEE822024    "G. PASCOLI" - TEOR              RIVIGNANO TEOR       UDINE    
+1       INTORNO A NOI CLASSE 1-2-3  UDEE822035    "A. MANZONI" - POCENIA           POCENIA              UDINE    
+1       INTORNO A NOI CLASSE 1-2-3  UDEE849013    "G.B. CANDOTTI " CODROIPO        CODROIPO             UDINE    
+1       INTORNO A NOI CLASSE 4-5    GOEE80303T    DUCA D'AOSTA                     MONFALCONE           GORIZIA  
+1       INTORNO A NOI CLASSE 4-5    UDEE822013    "A. MANZONI" - RIVIGNANO         RIVIGNANO TEOR       UDINE    
+1       INTORNO A NOI CLASSE 4-5    UDEE822035    "A. MANZONI" - POCENIA           POCENIA              UDINE    
