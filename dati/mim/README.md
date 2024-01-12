@@ -4,6 +4,10 @@ I file in questa directory provengono dal portale open data del MIM o da rispost
 
 ## Accesso civico generalizzato
 
+### Istanza inviata
+
+Il testo dell'istanza è nel file `istanza_accesso_civico_generalizzato.txt`.
+
 ### Risposta del MIM 
 
 Allegato alla risposta del MIM del 27 settembre 2023
