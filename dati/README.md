@@ -1,6 +1,6 @@
 # Provenienza dei dati
 
-I dati della directory `mim`, relativi agli anni scolastici 2021/22 e 2022/23 provengono dal Ministero dell'Istruzione e del Merito.
+I dati della directory `mim`, relativi agli anni scolastici 2021/22, 2022/23 e 2023/24, provengono dal Ministero dell'Istruzione e del Merito.
 
 I dati delle directory `tn` e `bz`, relativi agli anni scolastici dal 2018/19 al 2022/23, provengono dalle Amministrazioni provinciali di Trento e di Bolzano.
 
