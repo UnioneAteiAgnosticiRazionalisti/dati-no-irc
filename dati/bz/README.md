@@ -4,6 +4,8 @@
 
 Questa directory contiene i dati ricevuti dall'Amministrazioni provinciale di Bolzano in seguito a richieste di accesso civico generalizzato.
 
+Nel 2025 sono stati aggiunti i file ricevuti in seguito a richieste fatte nel corso del 2024.
+
 ## Scuole in lingua italiana
 
 Il file `Frequenza religione cattolica 2018 2023.XLS` è stato ricevuto il 22 novembre 2023, con allegata la seguente nota:
