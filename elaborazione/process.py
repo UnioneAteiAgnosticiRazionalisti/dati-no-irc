@@ -1,16 +1,11 @@
 #!/usr/bin/env python3
 
-'''
-Software rilasciato con licenza GNU GPLv3 https://www.gnu.org/licenses/gpl-3.0.html
-Autore: Loris Tissino <loris.tissino@gmail.com>
-'''
-
 import csv
 import sys
 import sqlite3
 import numpy as np
 
-con = sqlite3.connect("aa_irc2023.db")
+con = sqlite3.connect("aa_irc2024.db")
 con.row_factory = sqlite3.Row
 
 def prepare_db():
@@ -108,7 +103,7 @@ def find_anomalies(threshold):
     flaggedData = 0
     flaggedSchools = 0
     
-    cur.execute("SELECT DISTINCT CODICESCUOLA, DESCRIZIONETIPOLOGIAGRADOISTRUZIONESCUOLA FROM SCUOLE WHERE ANNOSCOLASTICO IN (202122, 202223) ORDER BY CODICESCUOLA;")
+    cur.execute("SELECT DISTINCT CODICESCUOLA, DESCRIZIONETIPOLOGIAGRADOISTRUZIONESCUOLA FROM SCUOLE WHERE ANNOSCOLASTICO IN (202324) ORDER BY CODICESCUOLA;")
 
     while True:
         data = cur.fetchone()
@@ -145,13 +140,18 @@ def find_anomalies(threshold):
                 rstudents.append(row['STUDENTIIRC'])
                 #print("----")
 
-        print(percentages)
+        print(percentages)  # TBEE042007 
         print(years)
         print(students)
         print(rstudents)
+        percentages = [v for v in percentages if v != 0] # we must get rid of 0 that cause errors in divisions
         for i in range(0, len(percentages)-1):
+            #variation = (percentages[i+1]-percentages[i])/percentages[i]
             variation = max(abs((percentages[i+1]-percentages[i])/percentages[i]), abs((percentages[i]-percentages[i+1])/percentages[i+1]))
             if (variation > threshold):
+                # 1/schoolyears
+                # print(f"({percentages[i+1]}-{percentages[i]})/{percentages[i]}")
+                # print(f"{rstudents[i+1]}/{students[i+1]}")
                 con.cursor().execute("UPDATE STUDENTI SET DATODUBBIO = 'INCOERENZE TEMPORALI' WHERE CODICESCUOLA = ? AND ANNOSCOLASTICO = ? ", (schoolcode, years[i+1]))
                 print(f"Flagged: {schoolcode} - {schooltype}, {schoolyears}")
                 flaggedData += 1
@@ -161,6 +161,13 @@ def find_anomalies(threshold):
         if flagged:
             flaggedSchools +=1
             print(f"Flagged: {schoolcode} - {schooltype}, {schoolyears}")
+            '''
+            if (len(percentages)>0):
+                print(percentages, end="  --- ")
+                arr = np.array(percentages)
+                avg = np.sum(arr) / len(percentages)
+                print(avg)
+            '''
             report = []
             for i in range(0, len(students)):
                 report.append(f"{years[i]}: {rstudents[i]}/{students[i]}")
@@ -173,6 +180,60 @@ def find_anomalies(threshold):
     
     #cur.execute("INSERT INTO VALORIMEDIPERSCUOLA (CODICESCUOLA, STUDENTIIRC) SELECT CODICESCUOLA, AVG(STUDENTIIRC) AS STUDENTIIRC FROM STUDENTI GROUP BY CODICESCUOLA")
     con.commit()
+
+def find_anomalies_new(schoolyear, previous_schoolyear):
+    print("Ricerca di anomalie...")
+    cur = con.cursor()
+    
+    count = 0
+    
+    totalNumberOfStudents  = 0
+    totalNumberOfSchools = 0
+    flaggedData = 0
+    flaggedSchools = 0
+    
+    cur.execute("SELECT DISTINCT CODICESCUOLA, DESCRIZIONETIPOLOGIAGRADOISTRUZIONESCUOLA, PROVINCIA, DESCRIZIONECOMUNE FROM SCUOLE WHERE ANNOSCOLASTICO = ?  ORDER BY CODICESCUOLA;", (schoolyear,))
+
+    while True:
+        data = cur.fetchone()
+        if data == None:
+            break
+        schoolcode = data['CODICESCUOLA']
+        schooltype = data['DESCRIZIONETIPOLOGIAGRADOISTRUZIONESCUOLA']
+        # print((data['CODICESCUOLA'], data['DESCRIZIONETIPOLOGIAGRADOISTRUZIONESCUOLA']))
+
+        subcur = con.cursor()
+        subcur.execute("SELECT * FROM STUDENTI WHERE STUDENTI.CODICESCUOLA = ? AND DATODUBBIO IS NULL AND ANNOSCOLASTICO = ?;", (schoolcode, schoolyear))
+        info = subcur.fetchone()
+        if info == None:
+            continue
+        #print(dict(info))
+        
+        # {'ANNOSCOLASTICO': 202324, 'CODICESCUOLA': 'AGPS02000P', 'NUMEROSTUDENTI': 1081, 'STUDENTIIRC': 1068, 'DATODUBBIO': None}
+        
+        not_irc_students_perc = _compute_percentage(info)
+        #if not_irc_students_perc > .5:
+        #    print(f"* {not_irc_students_perc}")
+        #print(f"* {not_irc_students_perc}")
+        
+        if not_irc_students_perc > .5 and (data['DESCRIZIONETIPOLOGIAGRADOISTRUZIONESCUOLA']=='SCUOLA PRIMARIA' or data['DESCRIZIONETIPOLOGIAGRADOISTRUZIONESCUOLA']=='SCUOLA INFANZIA'):
+            subsubcur = con.cursor()
+            subsubcur.execute("SELECT * FROM STUDENTI WHERE STUDENTI.CODICESCUOLA = ? AND DATODUBBIO IS NULL AND ANNOSCOLASTICO = ?;", (schoolcode, previous_schoolyear))
+            info2 = subsubcur.fetchone()
+            previous_year_perc = -1
+            report = [data['CODICESCUOLA'], data['DESCRIZIONETIPOLOGIAGRADOISTRUZIONESCUOLA'], data['PROVINCIA'], data['DESCRIZIONECOMUNE'], not_irc_students_perc, info['NUMEROSTUDENTI'], info['NUMEROSTUDENTI'] - info['STUDENTIIRC']]
+            if info2 != None:
+                previous_year_perc = _compute_percentage(info2)
+                report.append(previous_year_perc)
+                report.append(info2['NUMEROSTUDENTI'])
+                report.append(info2['NUMEROSTUDENTI'] - info2['STUDENTIIRC'])
+            print(report)
+            
+
+def _compute_percentage(info):
+    students = info['NUMEROSTUDENTI']
+    not_irc_students = students - info['STUDENTIIRC']
+    return 1.0 * not_irc_students / students
 
 def remove_subjects():
     print("Eliminazione delle materie curricolari ordinarie...")
@@ -189,47 +250,58 @@ if __name__ == '__main__':
     load_students(202021, 'DATIPRECEDENTI202021.csv')
     load_students(202122, 'dati_scuole_20212022.csv')
     load_students(202223, 'dati_scuole_20222023.csv')
+    load_students(202324, 'dati_scuole_20232024.csv')
     
     load_students(201819, 'bolzano_ita201819.csv')
     load_students(201920, 'bolzano_ita201920.csv')
     load_students(202021, 'bolzano_ita202021.csv')
     load_students(202122, 'bolzano_ita202122.csv')
     load_students(202223, 'bolzano_ita202223.csv')
+    load_students(202324, 'bolzano_ita202324.csv')
 
     load_students(201920, 'bolzano_ted201920.csv')
     load_students(202021, 'bolzano_ted202021.csv')
     load_students(202122, 'bolzano_ted202122.csv')
     load_students(202223, 'bolzano_ted202223.csv')
+    load_students(202324, 'bolzano_ted202324.csv')
 
     load_students(201819, 'bolzano_lad201819.csv')
     load_students(201920, 'bolzano_lad201920.csv')
     load_students(202021, 'bolzano_lad202021.csv')
     load_students(202122, 'bolzano_lad202122.csv')
     load_students(202223, 'bolzano_lad202223.csv')
+    load_students(202324, 'bolzano_lad202324.csv')
     
     load_students(201819, 'trento201819.csv')
     load_students(201920, 'trento201920.csv')
     load_students(202021, 'trento202021.csv')
     load_students(202122, 'trento202122.csv')
     load_students(202223, 'trento202223.csv')
+    load_students(202324, 'trento202324.csv')
     
     for source in [
-        'SCUANAAUTSTAT20212220210901.csv', 
-        'SCUANAAUTSTAT20222320220901.csv',
-        'SCUANAGRAFESTAT20212220220831.csv',
-        'SCUANAGRAFESTAT20222320220901.csv',
-        'INTEGRAZIONEALTOADIGE202223.csv'
+        #'SCUANAAUTSTAT20212220210901.csv', # pubbliche delle regioni autonome, 2021/22
+        #'SCUANAAUTSTAT20222320220901.csv', # pubbliche delle regioni autonome, 2022/23
+        'SCUANAAUTSTAT20232420230901.csv', # pubbliche delle regioni autonome, 2023/24
+        #'SCUANAGRAFESTAT20212220220831.csv', # pubbliche statali, 2021/22
+        #'SCUANAGRAFESTAT20222320220901.csv', # pubbliche statali, 2022/23'''
+        'SCUANAGRAFESTAT20232420230901.csv', # pubbliche statali, 2023/24
+        #'INTEGRAZIONEALTOADIGE202223.csv',
+        #'INTEGRAZIONEALTOADIGE202324.csv'
         ]:
             load_schools(source, 'PUBBLICA')
 
     for source in [
-        'SCUANAAUTPAR20212220210901.csv',
-        'SCUANAAUTPAR20222320220901.csv',
-        'SCUANAGRAFEPAR20212220220831.csv',
-        'SCUANAGRAFEPAR20222320220901.csv'
+        #'SCUANAAUTPAR20212220210901.csv', # private delle regioni autonome, 2021/22
+        #'SCUANAAUTPAR20222320220901.csv', # private delle regioni autonome, 2022/23
+        'SCUANAAUTPAR20232420230901.csv', # private delle regioni autonome, 2023/24
+        #'SCUANAGRAFEPAR20212220220831.csv', # private nazionali, 2021/22
+        #'SCUANAGRAFEPAR20222320220901.csv', # private nazionali, 2022/23
+        'SCUANAGRAFEPAR20232420230901.csv',  # private nazionali, 2023/24
         ]:
             load_schools(source, 'PARITARIA')
 
+    '''
     for source in [
         'ALTABRUZZO000020230913.csv',
         'ALTBASILICATA000020230913.csv',
@@ -253,6 +325,7 @@ if __name__ == '__main__':
         ]:
             load_books(source)
             pass
-    
-    remove_subjects();
+    '''
+    #remove_subjects();
+    #find_anomalies(202324, 202223)
     find_anomalies(.75)
