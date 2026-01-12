@@ -1,4 +1,4 @@
-# AA_IRC2024
+# AA_IRC
 
 Le informazioni sulla provenienza dei dati sono nel file README.md della directory `dati`.
 
