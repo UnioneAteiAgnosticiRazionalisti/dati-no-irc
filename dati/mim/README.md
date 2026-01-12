@@ -27,6 +27,10 @@ Nel documento di accompagnamento si legge quanto segue:
     è riportato pari a “<=3”.
     * Come richiesto, è stata aggiunto il campo “Alunni frequentanti totali” e si
     precisa che sono esclusi dai conteggi i dati relativi ai serali.
+
+### Dati relativi all'anno scolastico 2024/25
+
+I dati originali sono presenti nel file `Alunni che frequentano Rel Catt_2024-25.xlsx` (ricevuto il 17 dicembre 2025).
     
 ## Anagrafica scuole
 

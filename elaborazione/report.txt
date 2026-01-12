@@ -1,368 +1,695 @@
 Sintesi generale
 ANNOSCOLASTICO  SUM(NUMEROSTUDENTI)  SUM(STUDENTINONAVV)  PERCNONAVV
 --------------  -------------------  -------------------  ----------
-202122          7163061              1053150              14.7      
-202223          7078044              1096846              15.5      
+202122          7342558              1104167              15.04     
+202223          7261551              1147400              15.8      
+202324          7102613              1190157              16.76     
+202425          6975544              1232512              17.67     
 
 
 
-Dati dubbi non tenuti in considerazione
-ANNOSCOLASTICO  COUNT(CODICESCUOLA)  DATODUBBIO          
---------------  -------------------  --------------------
-201819          827                  INCOERENZE TEMPORALI
-201920          893                  INCOERENZE TEMPORALI
-202021          905                  INCOERENZE TEMPORALI
-202122          944                  INCOERENZE TEMPORALI
-202122          37                   NUMEROSTUDENTI<=3   
-202122          2298                 STUDENTIIRC<=3      
-202223          929                  INCOERENZE TEMPORALI
-202223          42                   NUMEROSTUDENTI<=3   
-202223          2182                 STUDENTIIRC<=3      
-
-
-
-Dati tenuti in considerazione
-ANNOSCOLASTICO  COUNT(CODICESCUOLA)
---------------  -------------------
-201819          49125              
-201920          49598              
-202021          49105              
-202122          49617              
-202223          49460              
-
-
-
-Non avvalentisi per regione, anno 202122, scuole pubbliche
+Non avvalentisi per regione, anno 202425, scuole pubbliche
 ANNOSCOLASTICO  REGIONE              SUM(NUMEROSTUDENTI)  SUM(STUDENTINONAVV)  PERCNONAVV
 --------------  -------------------  -------------------  -------------------  ----------
-202122          VALLE D' AOSTA       15006                4143                 27.61     
-202122          EMILIA ROMAGNA       520776               135654               26.05     
-202122          TOSCANA              437383               113157               25.87     
-202122          LIGURIA              157535               40054                25.43     
-202122          LOMBARDIA            1104543              256435               23.22     
-202122          PIEMONTE             479183               110522               23.06     
-202122          FRIULI-VENEZIA G.    134461               30368                22.58     
-202122          VENETO               558945               105256               18.83     
-202122          TRENTINO-ALTO ADIGE  122119               19931                16.32     
-202122          MARCHE               195258               26509                13.58     
-202122          LAZIO                671776               89094                13.26     
-202122          UMBRIA               111139               14502                13.05     
-202122          SARDEGNA             181849               17164                9.44      
-202122          ABRUZZO              162049               12037                7.43      
-202122          SICILIA              650130               27827                4.28      
-202122          PUGLIA               527228               17900                3.4       
-202122          CALABRIA             246869               8145                 3.3       
-202122          MOLISE               35012                1120                 3.2       
-202122          BASILICATA           68969                1900                 2.75      
-202122          CAMPANIA             782831               21432                2.74      
+202425          VALLE D' AOSTA       14108                4861                 34.46     
+202425          EMILIA ROMAGNA       522005               160010               30.65     
+202425          TOSCANA              432434               132344               30.6      
+202425          LIGURIA              157642               47454                30.1      
+202425          LOMBARDIA            1087449              295978               27.22     
+202425          PIEMONTE             477324               128981               27.02     
+202425          FRIULI-VENEZIA G.    129750               34692                26.74     
+202425          VENETO               538225               122035               22.67     
+202425          TRENTINO-ALTO ADIGE  125712               22541                17.93     
+202425          MARCHE               190539               31163                16.36     
+202425          LAZIO                660343               103060               15.61     
+202425          UMBRIA               106858               16319                15.27     
+202425          SARDEGNA             169630               20289                11.96     
+202425          ABRUZZO              158068               15932                10.08     
+202425          SICILIA              626463               33069                5.28      
+202425          MOLISE               33236                1579                 4.75      
+202425          CALABRIA             236645               10919                4.61      
+202425          PUGLIA               498470               21464                4.31      
+202425          CAMPANIA             745132               27684                3.72      
+202425          BASILICATA           65511                2138                 3.26      
 
 
 
-Non avvalentisi per provincia, anno 202122, scuole pubbliche
+Non avvalentisi per provincia, anno 202425, scuole pubbliche
 ANNOSCOLASTICO  PROVINCIA              SUM(NUMEROSTUDENTI)  SUM(STUDENTINONAVV)  PERCNONAVV
 --------------  ---------------------  -------------------  -------------------  ----------
-202122          FIRENZE                111312               40882                36.73     
-202122          BOLOGNA                109416               38019                34.75     
-202122          TRIESTE                22736                7413                 32.6      
-202122          PRATO                  32503                9960                 30.64     
-202122          GORIZIA                16805                5055                 30.08     
-202122          MODENA                 90989                25613                28.15     
-202122          BIELLA                 18492                5130                 27.74     
-202122          LIVORNO                38359                10642                27.74     
-202122          AOSTA                  15006                4143                 27.61     
-202122          MANTOVA                50048                13799                27.57     
-202122          GENOVA                 80380                21461                26.7      
-202122          REGGIO EMILIA          62360                16530                26.51     
-202122          BRESCIA                144905               38228                26.38     
-202122          RAVENNA                43204                11282                26.11     
-202122          TORINO                 239670               62540                26.09     
-202122          SAVONA                 29733                7654                 25.74     
-202122          MILANO                 334854               85003                25.39     
-202122          FERRARA                37219                9424                 25.32     
-202122          PIACENZA               33962                8414                 24.77     
-202122          BERGAMO                128609               31675                24.63     
-202122          IMPERIA                23070                5421                 23.5      
-202122          GROSSETO               23733                5550                 23.39     
-202122          NOVARA                 41581                9688                 23.3      
-202122          VERCELLI               19102                4439                 23.24     
-202122          SIENA                  33412                7657                 22.92     
-202122          VERBANO-CUSIO-OSSOLA   16751                3817                 22.79     
-202122          CREMONA                40797                9248                 22.67     
-202122          LA SPEZIA              24352                5518                 22.66     
-202122          PISTOIA                36361                8141                 22.39     
-202122          VENEZIA                92520                20576                22.24     
-202122          PAVIA                  56021                12441                22.21     
-202122          PARMA                  52950                11281                21.31     
-202122          LODI                   28641                6090                 21.26     
-202122          PORDENONE              37421                7957                 21.26     
-202122          PISA                   52241                10886                20.84     
-202122          LUCCA                  44594                9263                 20.77     
-202122          TREVISO                105153               21553                20.5      
-202122          ASTI                   23747                4785                 20.15     
-202122          TRENTO                 59521                11985                20.14     
-202122          COMO                   61933                12254                19.79     
-202122          LECCO                  36406                7012                 19.26     
-202122          PADOVA                 103756               19967                19.24     
-202122          VARESE                 101720               19466                19.14     
-202122          FORLI'-CESENA          50493                9651                 19.11     
-202122          ALESSANDRIA            44371                8381                 18.89     
-202122          BELLUNO                20730                3904                 18.83     
-202122          MONZA E DELLA BRIANZA  98124                17650                17.99     
-202122          VERONA                 105423               18453                17.5      
-202122          UDINE                  57499                9943                 17.29     
-202122          ROVIGO                 23493                3998                 17.02     
-202122          ROMA                   479502               77043                16.07     
-202122          SONDRIO                22485                3569                 15.87     
-202122          AREZZO                 43253                6828                 15.79     
-202122          VICENZA                107870               16805                15.58     
-202122          CUNEO                  75469                11742                15.56     
-202122          PESARO E URBINO        46039                7147                 15.52     
-202122          MASSA-CARRARA          21615                3348                 15.49     
-202122          FERMO                  20828                3070                 14.74     
-202122          TERNI                  26019                3724                 14.31     
-202122          ANCONA                 61338                8754                 14.27     
-202122          RIMINI                 40183                5440                 13.54     
-202122          MACERATA               41072                5399                 13.15     
-202122          CAGLIARI               49928                6456                 12.93     
-202122          BOLZANO                62598                7946                 12.69     
-202122          PERUGIA                85120                10778                12.66     
-202122          SASSARI                57143                5957                 10.42     
-202122          VITERBO                36917                3674                 9.95      
-202122          TERAMO                 37416                3645                 9.74      
-202122          L'AQUILA               34468                3210                 9.31      
-202122          RAGUSA                 44290                3968                 8.96      
-202122          RIETI                  18393                1551                 8.43      
-202122          ASCOLI PICENO          25981                2139                 8.23      
-202122          NUORO                  25574                2003                 7.83      
-202122          ORISTANO               15759                1183                 7.51      
-202122          LATINA                 74978                5055                 6.74      
-202122          PESCARA                42922                2871                 6.69      
-202122          CHIETI                 47243                2311                 4.89      
-202122          TRAPANI                55819                2674                 4.79      
-202122          SUD SARDEGNA           33445                1565                 4.68      
-202122          SIRACUSA               52002                2303                 4.43      
-202122          PALERMO                161494               6886                 4.26      
-202122          BARI                   167451               7037                 4.2       
-202122          CATANZARO              45175                1843                 4.08      
-202122          CATANIA                150892               5960                 3.95      
-202122          MATERA                 25800                986                  3.82      
-202122          CROTONE                23209                884                  3.81      
-202122          REGGIO CALABRIA        71327                2699                 3.78      
-202122          MESSINA                72946                2690                 3.69      
-202122          CALTANISSETTA          35887                1183                 3.3       
-202122          FOGGIA                 80895                2660                 3.29      
-202122          LECCE                  98784                3237                 3.28      
-202122          CAMPOBASSO             25907                838                  3.23      
-202122          CASERTA                129063               4133                 3.2       
-202122          SALERNO                144386               4538                 3.14      
-202122          ISERNIA                9105                 282                  3.1       
-202122          AGRIGENTO              56070                1695                 3.02      
-202122          TARANTO                76694                2260                 2.95      
-202122          FROSINONE              61986                1771                 2.86      
-202122          BENEVENTO              34417                957                  2.78      
-202122          BRINDISI               50397                1369                 2.72      
-202122          AVELLINO               48414                1259                 2.6       
-202122          COSENZA                86273                2193                 2.54      
-202122          BARLETTA-ANDRIA-TRANI  53007                1337                 2.52      
-202122          VIBO VALENTIA          20885                526                  2.52      
-202122          NAPOLI                 426551               10545                2.47      
-202122          ENNA                   20730                468                  2.26      
-202122          POTENZA                43169                914                  2.12      
+202425          FIRENZE                111431               44938                40.33     
+202425          BOLOGNA                110832               43127                38.91     
+202425          PRATO                  32731                11995                36.65     
+202425          TRIESTE                22101                8024                 36.31     
+202425          AOSTA                  14108                4861                 34.46     
+202425          GORIZIA                15826                5424                 34.27     
+202425          LIVORNO                36881                12215                33.12     
+202425          MODENA                 90473                29714                32.84     
+202425          RAVENNA                44082                14417                32.7      
+202425          MANTOVA                49891                15995                32.06     
+202425          GENOVA                 81958                25852                31.54     
+202425          BIELLA                 17568                5456                 31.06     
+202425          BRESCIA                142309               43491                30.56     
+202425          REGGIO EMILIA          61520                18796                30.55     
+202425          TORINO                 240083               72372                30.14     
+202425          SAVONA                 28484                8555                 30.03     
+202425          PIACENZA               35224                10557                29.97     
+202425          FERRARA                37333                11051                29.6      
+202425          IMPERIA                23322                6856                 29.4      
+202425          MILANO                 331458               96963                29.25     
+202425          BERGAMO                123462               34773                28.16     
+202425          NOVARA                 41714                11616                27.85     
+202425          PISTOIA                36401                10028                27.55     
+202425          LODI                   27971                7685                 27.47     
+202425          SIENA                  32475                8882                 27.35     
+202425          VERCELLI               19605                5351                 27.29     
+202425          PORDENONE              36511                9919                 27.17     
+202425          GROSSETO               23248                6296                 27.08     
+202425          CREMONA                42826                11537                26.94     
+202425          LUCCA                  45484                12034                26.46     
+202425          PISA                   50814                13425                26.42     
+202425          VENEZIA                88691                23402                26.39     
+202425          PAVIA                  59114                15578                26.35     
+202425          VERBANO-CUSIO-OSSOLA   17579                4610                 26.22     
+202425          LA SPEZIA              23878                6191                 25.93     
+202425          PARMA                  53014                13688                25.82     
+202425          BELLUNO                20639                4951                 23.99     
+202425          TREVISO                99543                23846                23.96     
+202425          ALESSANDRIA            43135                10266                23.8      
+202425          ASTI                   23039                5454                 23.67     
+202425          TRENTO                 54681                12680                23.19     
+202425          MONZA E DELLA BRIANZA  94689                21748                22.97     
+202425          COMO                   60031                13765                22.93     
+202425          PADOVA                 100265               22896                22.84     
+202425          VARESE                 97810                22024                22.52     
+202425          FORLI'-CESENA          50338                11208                22.27     
+202425          LECCO                  35095                7714                 21.98     
+202425          ROVIGO                 23480                5078                 21.63     
+202425          VERONA                 102593               22191                21.63     
+202425          SONDRIO                22793                4705                 20.64     
+202425          UDINE                  55312                11325                20.47     
+202425          AREZZO                 42350                8470                 20.0      
+202425          MASSA-CARRARA          20619                4061                 19.7      
+202425          VICENZA                103014               19671                19.1      
+202425          RIMINI                 39189                7452                 19.02     
+202425          CUNEO                  74601                13856                18.57     
+202425          ROMA                   472532               87213                18.46     
+202425          TERNI                  25135                4534                 18.04     
+202425          PESARO E URBINO        44658                7947                 17.8      
+202425          FERMO                  20381                3561                 17.47     
+202425          ANCONA                 60100                10320                17.17     
+202425          CAGLIARI               47198                7862                 16.66     
+202425          MACERATA               39701                6572                 16.55     
+202425          VITERBO                36094                5348                 14.82     
+202425          PERUGIA                81723                11785                14.42     
+202425          TERAMO                 36648                5201                 14.19     
+202425          BOLZANO                71031                9861                 13.88     
+202425          RAGUSA                 44431                5847                 13.16     
+202425          SASSARI                53982                6995                 12.96     
+202425          L'AQUILA               33858                4344                 12.83     
+202425          ASCOLI PICENO          25699                2763                 10.75     
+202425          RIETI                  17856                1840                 10.3      
+202425          ORISTANO               14406                1357                 9.42      
+202425          PESCARA                41621                3556                 8.54      
+202425          NUORO                  23054                1934                 8.39      
+202425          LATINA                 73345                6095                 8.31      
+202425          SUD SARDEGNA           30990                2141                 6.91      
+202425          TRAPANI                53616                3398                 6.34      
+202425          CHIETI                 45941                2831                 6.16      
+202425          VIBO VALENTIA          19147                1087                 5.68      
+202425          SIRACUSA               50363                2754                 5.47      
+202425          BARI                   159130               8525                 5.36      
+202425          CATANZARO              44180                2335                 5.29      
+202425          ISERNIA                8632                 445                  5.16      
+202425          MESSINA                71859                3589                 4.99      
+202425          REGGIO CALABRIA        67620                3296                 4.87      
+202425          BENEVENTO              32427                1574                 4.85      
+202425          PALERMO                154275               7133                 4.62      
+202425          CAMPOBASSO             24604                1134                 4.61      
+202425          SALERNO                139608               6438                 4.61      
+202425          CALTANISSETTA          32432                1441                 4.44      
+202425          LECCE                  94695                4104                 4.33      
+202425          CATANIA                147547               6330                 4.29      
+202425          FROSINONE              60516                2564                 4.24      
+202425          FOGGIA                 76362                3204                 4.2       
+202425          MATERA                 25063                1041                 4.15      
+202425          COSENZA                82624                3326                 4.03      
+202425          AGRIGENTO              52786                2046                 3.88      
+202425          CASERTA                120608               4637                 3.84      
+202425          CROTONE                23074                875                  3.79      
+202425          TARANTO                71484                2631                 3.68      
+202425          AVELLINO               44748                1618                 3.62      
+202425          BRINDISI               47056                1568                 3.33      
+202425          NAPOLI                 407741               13417                3.29      
+202425          BARLETTA-ANDRIA-TRANI  49743                1432                 2.88      
+202425          ENNA                   19154                531                  2.77      
+202425          POTENZA                40448                1097                 2.71      
 
 
 
-Non avvalentisi per tipologia di scuola, anno 202122, scuole pubbliche
+Non avvalentisi per tipologia di scuola, anno 202425, scuole pubbliche
 ANNOSCOLASTICO  TIPOSCUOLA                      SUM(NUMEROSTUDENTI)  SUM(STUDENTINONAVV)  PERCNONAVV
 --------------  ------------------------------  -------------------  -------------------  ----------
-202122          Istituto professionale          394974               95185                24.1      
-202122          Istituto tecnico                792931               183464               23.14     
-202122          Liceo                           1270988              218750               17.21     
-202122          Tipo di scuola non disponibile  51644                8330                 16.13     
-202122          Secondaria primo grado          1562006              211491               13.54     
-202122          Primaria                        2291420              252234               11.01     
-202122          Infanzia                        799098               83696                10.47     
+202425          Istituto professionale          389895               113386               29.08     
+202425          Istituto tecnico                799347               210847               26.38     
+202425          Liceo                           1285306              251488               19.57     
+202425          Tipo di scuola non disponibile  50065                9316                 18.61     
+202425          Secondaria primo grado          1506961              256332               17.01     
+202425          Primaria                        2183439              291110               13.33     
+202425          Infanzia                        760531               100033               13.15     
 
 
 
-Top ten, anno 202122, scuole pubbliche
-CODICESCUOLA  DENOMINAZIONESCUOLA          DESCRIZIONECOMUNE  TIPOSCUOLA              NUMEROSTUDENTI  STUDENTINONAVV  PERCNONAVV
-------------  ---------------------------  -----------------  ----------------------  --------------  --------------  ----------
-VERM00801N    GIORGIO CINI                 VENEZIA            Istituto professionale  55              50              90.91     
-TORI01201D    I.P.I.A. M. OLIVETTI         IVREA              Istituto professionale  100             90              90.0      
-FIRA00701Q    SEZ.DIP. IST.TECN.AGRARIO    FIRENZE            Istituto professionale  189             166             87.83     
-ANEE81804G    ANCONA "L. DA VINCI"         ANCONA             Primaria                110             96              87.27     
-TOMM81301E    I.C. TORRE PELLICE - RODARI  TORRE PELLICE      Secondaria primo grado  166             144             86.75     
-TOAA81301A    I.C. TORRE PELLICE           TORRE PELLICE      Infanzia                42              36              85.71     
-BGAA88602E    VERDELLINO ZINGONIA          VERDELLINO         Infanzia                103             88              85.44     
-FITD028013    ALESSANDRO VOLTA             BAGNO A RIPOLI     Istituto tecnico        910             773             84.95     
-FIRC02903N    "SASSETTI - PERUZZI"         FIRENZE            Istituto professionale  634             537             84.7      
-BORI01901G    I.P.I.A. ALDINI VALERIANI    BOLOGNA            Istituto professionale  381             320             83.99     
+Top thirty, anno 202425, scuole pubbliche (su csv)
+Top thirty, anno 202425, scuole pubbliche
+CODICESCUOLA  DENOMINAZIONESCUOLA                      DESCRIZIONECOMUNE    PROVINCIA        TIPOSCUOLA              NUMEROSTUDENTI  STUDENTIIRC  STUDENTINONAVV  PERCNONAVV  DATODUBBIO
+------------  ---------------------------------------  -------------------  ---------------  ----------------------  --------------  -----------  --------------  ----------  ----------
+TOTD02401A    G. CENA                                  IVREA                TORINO           Istituto tecnico        616             93           523             84.9                  
+GOAA80404D    SCUOLA DELL'INFANZIA VIA ROMA            MONFALCONE           GORIZIA          Infanzia                66              10           56              84.85                 
+FITN02901R    IST. TECNICO TURISMO "SASSETTI-PERUZZI"  FIRENZE              FIRENZE          Istituto tecnico        203             31           172             84.73                 
+BSAA82501E    VOBARNO CAP.                             VOBARNO              BRESCIA          Infanzia                78              12           66              84.62                 
+FIRC02903N    "SASSETTI - PERUZZI"                     FIRENZE              FIRENZE          Istituto professionale  766             119          647             84.46                 
+VEAA87001V    GIOVANNI PAOLO I                         VENEZIA              VENEZIA          Infanzia                108             17           91              84.26                 
+FITL01301Q    SALVEMINI                                FIRENZE              FIRENZE          Istituto tecnico        260             41           219             84.23                 
+MIRI07401R    I.P. - MARELLI DUDOVICH                  MILANO               MILANO           Istituto professionale  241             38           203             84.23                 
+BSAA88101V    INFANZIA A.DIAZ BRESCIA                  BRESCIA              BRESCIA          Infanzia                25              4            21              84.0                  
+FIRF004011    ELSA MORANTE - OP. SERV. SOCIO SANITARI  FIRENZE              FIRENZE          Istituto professionale  447             72           375             83.89                 
+FIRC02902L    "SASSETTI" - SEZ.COORD.                  SCANDICCI            FIRENZE          Istituto professionale  272             44           228             83.82                 
+BORI01901G    I.P.I.A. ALDINI VALERIANI                BOLOGNA              BOLOGNA          Istituto professionale  418             69           349             83.49                 
+RCAA871061    POLO LUME                                REGGIO DI CALABRIA   REGGIO CALABRIA  Infanzia                66              11           55              83.33                 
+VEAA87002X    "C.COLLODI"                              VENEZIA              VENEZIA          Infanzia                66              11           55              83.33                 
+BSAA88701T    INFANZIA SAN GIACOMO BRESCIA             BRESCIA              BRESCIA          Infanzia                65              11           54              83.08                 
+FIRI00601G    IST. PROF. STATO CELLINI-TORNABUONI      FIRENZE              FIRENZE          Istituto professionale  663             113          550             82.96                 
+VEAA87201E    C. BATTISTI                              VENEZIA              VENEZIA          Infanzia                146             25           121             82.88                 
+VEEE87201Q    C. BATTISTI                              VENEZIA              VENEZIA          Primaria                332             57           275             82.83                 
+BOAA85401X    PANZINI                                  BOLOGNA              BOLOGNA          Infanzia                64              11           53              82.81                 
+BSAA885027    INFANZIA PASSO GAVIA BRESCIA             BRESCIA              BRESCIA          Infanzia                40              7            33              82.5                  
+TOMM81301E    I.C. TORRE PELLICE - RODARI              TORRE PELLICE        TORINO           Secondaria primo grado  171             30           141             82.46                 
+FITF00601C    IST. TEC. TECN.CELLINI/TORNABUONI        FIRENZE              FIRENZE          Istituto tecnico        339             60           279             82.3                  
+NAAA8GH01P    I.C. SAN ROCCO -PL. CHIESA               MARANO DI NAPOLI     NAPOLI           Infanzia                107             19           88              82.24                 
+TORC024013    G. CENA                                  IVREA                TORINO           Istituto professionale  321             57           264             82.24                 
+FISD03000L    LICEO ARTISTICO DI PORTA ROMANA E S.F.   FIRENZE              FIRENZE          Liceo                   1325            236          1089            82.19                 
+TOTF048015    R. ZERBONI                               TORINO               TORINO           Istituto tecnico        73              13           60              82.19                 
+PDEE82204Q    ANGUILLARA V-G. LOMBARDO RADICE          ANGUILLARA VENETA    PADOVA           Primaria                101             18           83              82.18                 
+VIAA877011    J. PIAGET                                MONTECCHIO MAGGIORE  VICENZA          Infanzia                129             23           106             82.17                 
+MITD02201P    I.T. ECONOMICO - S. ALLENDE              MILANO               MILANO           Istituto tecnico        336             60           276             82.14                 
+FEAA81901B    FALZONI GALLERANI                        CENTO                FERRARA          Infanzia                39              7            32              82.05                 
 
 
 
-Non avvalentisi per regione, anno 202223, scuole pubbliche
-ANNOSCOLASTICO  REGIONE              SUM(NUMEROSTUDENTI)  SUM(STUDENTINONAVV)  PERCNONAVV
---------------  -------------------  -------------------  -------------------  ----------
-202223          VALLE D' AOSTA       15558                4783                 30.74     
-202223          EMILIA ROMAGNA       519336               142731               27.48     
-202223          TOSCANA              432365               117240               27.12     
-202223          LIGURIA              156295               41494                26.55     
-202223          LOMBARDIA            1097031              265670               24.22     
-202223          PIEMONTE             474367               114478               24.13     
-202223          FRIULI-VENEZIA G.    133252               31892                23.93     
-202223          VENETO               553539               110698               20.0      
-202223          TRENTINO-ALTO ADIGE  121735               21153                17.38     
-202223          MARCHE               193501               27466                14.19     
-202223          UMBRIA               109979               14992                13.63     
-202223          LAZIO                663049               90015                13.58     
-202223          SARDEGNA             176516               17067                9.67      
-202223          ABRUZZO              160962               13463                8.36      
-202223          SICILIA              639151               29230                4.57      
-202223          MOLISE               34133                1321                 3.87      
-202223          PUGLIA               515460               18892                3.67      
-202223          CALABRIA             242025               8250                 3.41      
-202223          CAMPANIA             771668               23978                3.11      
-202223          BASILICATA           68122                2033                 2.98      
+Non avvalentisi per comune capolouogo, anno 202425, scuole pubbliche
+ANNOSCOLASTICO  DESCRIZIONECOMUNE  SUM(NUMEROSTUDENTI)  SUM(STUDENTINONAVV)  PERCNONAVV
+--------------  -----------------  -------------------  -------------------  ----------
+202425          FIRENZE            45098                22931                50.85     
+202425          BOLOGNA            42209                19806                46.92     
+202425          AOSTA              6338                 2947                 46.5      
+202425          BIELLA             7927                 3353                 42.3      
+202425          MANTOVA            11653                4864                 41.74     
+202425          BRESCIA            30574                11799                38.59     
+202425          RAVENNA            16958                6527                 38.49     
+202425          PRATO              27054                10353                38.27     
+202425          TRIESTE            20254                7730                 38.17     
+202425          IMPERIA            6626                 2518                 38.0      
+202425          TORINO             90799                34440                37.93     
+202425          LIVORNO            18068                6807                 37.67     
+202425          PORDENONE          10958                4104                 37.45     
+202425          PISA               14692                5437                 37.01     
+202425          SAVONA             9127                 3376                 36.99     
+202425          MILANO             129178               47756                36.97     
+202425          MODENA             26522                9774                 36.85     
+202425          PISTOIA            13409                4860                 36.24     
+202425          PAVIA              14665                5267                 35.92     
+202425          VENEZIA            28815                10351                35.92     
+202425          GENOVA             58361                20375                34.91     
+202425          COMO               14716                5070                 34.45     
+202425          VERCELLI           7571                 2608                 34.45     
+202425          PADOVA             30479                10492                34.42     
+202425          GORIZIA            5460                 1867                 34.19     
+202425          NOVARA             16585                5495                 33.13     
+202425          BERGAMO            25504                8310                 32.58     
+202425          PIACENZA           18337                5824                 31.76     
+202425          BELLUNO            6054                 1922                 31.75     
+202425          SIENA              10211                3224                 31.57     
+202425          SONDRIO            4990                 1573                 31.52     
+202425          LA SPEZIA          14013                4366                 31.16     
+202425          TRENTO             14426                4483                 31.08     
+202425          LUCCA              15050                4662                 30.98     
+202425          CREMONA            12192                3661                 30.03     
+202425          LODI               10121                3021                 29.85     
+202425          ASTI               11653                3346                 28.71     
+202425          FERRARA            17294                4950                 28.62     
+202425          UDINE              18622                5042                 27.08     
+202425          ALESSANDRIA        11204                2965                 26.46     
+202425          VARESE             11808                3062                 25.93     
+202425          VERONA             34070                8808                 25.85     
+202425          GROSSETO           11801                2982                 25.27     
+202425          LECCO              9186                 2283                 24.85     
+202425          PARMA              27658                6829                 24.69     
+202425          AREZZO             14756                3588                 24.32     
+202425          CUNEO              11035                2676                 24.25     
+202425          TREVISO            16723                4017                 24.02     
+202425          TERNI              14416                3221                 22.34     
+202425          ROMA               290874               64138                22.05     
+202425          ANCONA             14344                3110                 21.68     
+202425          CAGLIARI           23261                5004                 21.51     
+202425          VICENZA            19991                4092                 20.47     
+202425          RIMINI             19021                3841                 20.19     
+202425          SASSARI            17939                3442                 19.19     
+202425          ROVIGO             7440                 1302                 17.5      
+202425          PERUGIA            23699                4086                 17.24     
+202425          FERMO              7971                 1313                 16.47     
+202425          MACERATA           8857                 1362                 15.38     
+202425          VITERBO            10630                1604                 15.09     
+202425          NUORO              6090                 869                  14.27     
+202425          ORISTANO           6270                 878                  14.0      
+202425          RAGUSA             10653                1421                 13.34     
+202425          TERAMO             9485                 1182                 12.46     
+202425          L'AQUILA           10126                1198                 11.83     
+202425          LATINA             20378                2052                 10.07     
+202425          VIBO VALENTIA      8172                 790                  9.67      
+202425          RIETI              7628                 729                  9.56      
+202425          PESCARA            22494                2105                 9.36      
+202425          ASCOLI PICENO      8219                 675                  8.21      
+202425          LECCE              20951                1711                 8.17      
+202425          BARI               41752                3329                 7.97      
+202425          COSENZA            12800                983                  7.68      
+202425          CALTANISSETTA      9995                 767                  7.67      
+202425          BOLZANO            1867                 142                  7.61      
+202425          CHIETI             8447                 580                  6.87      
+202425          CATANIA            46959                2997                 6.38      
+202425          TRAPANI            9198                 563                  6.12      
+202425          PALERMO            87123                5242                 6.02      
+202425          FOGGIA             19527                1151                 5.89      
+202425          SIRACUSA           17255                975                  5.65      
+202425          MESSINA            27208                1518                 5.58      
+202425          FROSINONE          8962                 468                  5.22      
+202425          AGRIGENTO          9196                 436                  4.74      
+202425          BRINDISI           14713                667                  4.53      
+202425          MATERA             10375                456                  4.4       
+202425          ISERNIA            4133                 160                  3.87      
+202425          NAPOLI             119436               4534                 3.8       
+202425          CATANZARO          14419                540                  3.75      
+202425          ENNA               3836                 140                  3.65      
+202425          AVELLINO           12452                446                  3.58      
+202425          BENEVENTO          11311                392                  3.47      
+202425          CASERTA            13349                421                  3.15      
+202425          CAMPOBASSO         8717                 266                  3.05      
+202425          CROTONE            11356                345                  3.04      
+202425          POTENZA            11714                326                  2.78      
+202425          TARANTO            26935                735                  2.73      
+202425          SALERNO            20614                514                  2.49      
 
 
 
-Non avvalentisi per provincia, anno 202223, scuole pubbliche
-ANNOSCOLASTICO  PROVINCIA              SUM(NUMEROSTUDENTI)  SUM(STUDENTINONAVV)  PERCNONAVV
---------------  ---------------------  -------------------  -------------------  ----------
-202223          FIRENZE                109164               41398                37.92     
-202223          BOLOGNA                108401               39363                36.31     
-202223          TRIESTE                22561                7529                 33.37     
-202223          PRATO                  31788                10552                33.19     
-202223          GORIZIA                16741                5442                 32.51     
-202223          AOSTA                  15558                4783                 30.74     
-202223          MODENA                 90464                26705                29.52     
-202223          MANTOVA                50350                14576                28.95     
-202223          LIVORNO                37862                10706                28.28     
-202223          RAVENNA                43073                12103                28.1      
-202223          BIELLA                 18139                5071                 27.96     
-202223          GENOVA                 79603                22238                27.94     
-202223          BRESCIA                143673               39624                27.58     
-202223          REGGIO EMILIA          61566                16899                27.45     
-202223          SAVONA                 29375                8011                 27.27     
-202223          TORINO                 236802               64002                27.03     
-202223          FERRARA                37484                10013                26.71     
-202223          MILANO                 332959               87352                26.24     
-202223          PIACENZA               34331                9005                 26.23     
-202223          NOVARA                 40186                10262                25.54     
-202223          BERGAMO                126104               32176                25.52     
-202223          GROSSETO               23582                5777                 24.5      
-202223          PISTOIA                36336                8811                 24.25     
-202223          IMPERIA                22950                5555                 24.2      
-202223          VERCELLI               18863                4522                 23.97     
-202223          CREMONA                41593                9898                 23.8      
-202223          PAVIA                  57292                13515                23.59     
-202223          SIENA                  33306                7813                 23.46     
-202223          PARMA                  53282                12454                23.37     
-202223          LA SPEZIA              24367                5690                 23.35     
-202223          VENEZIA                90729                20967                23.11     
-202223          LODI                   28344                6476                 22.85     
-202223          VERBANO-CUSIO-OSSOLA   16663                3807                 22.85     
-202223          PORDENONE              37296                8409                 22.55     
-202223          PISA                   51945                11449                22.04     
-202223          LUCCA                  44578                9787                 21.95     
-202223          ASTI                   23551                5151                 21.87     
-202223          TREVISO                103912               22483                21.64     
-202223          TRENTO                 59561                12702                21.33     
-202223          ALESSANDRIA            44944                9364                 20.83     
-202223          PADOVA                 103118               21330                20.69     
-202223          COMO                   61220                12497                20.41     
-202223          BELLUNO                20329                4086                 20.1      
-202223          VARESE                 100636               20195                20.07     
-202223          FORLI'-CESENA          50160                9853                 19.64     
-202223          LECCO                  36111                7042                 19.5      
-202223          MONZA E DELLA BRIANZA  96225                18399                19.12     
-202223          UDINE                  56654                10512                18.55     
-202223          VERONA                 105084               19477                18.53     
-202223          ROVIGO                 24126                4454                 18.46     
-202223          AREZZO                 42803                7459                 17.43     
-202223          SONDRIO                22524                3920                 17.4      
-202223          VICENZA                106241               17901                16.85     
-202223          MASSA-CARRARA          21001                3488                 16.61     
-202223          CUNEO                  75219                12299                16.35     
-202223          ROMA                   474571               76731                16.17     
-202223          PESARO E URBINO        45526                7327                 16.09     
-202223          RIMINI                 40575                6336                 15.62     
-202223          FERMO                  20647                3162                 15.31     
-202223          TERNI                  25833                3846                 14.89     
-202223          MACERATA               40576                5912                 14.57     
-202223          ANCONA                 60427                8791                 14.55     
-202223          BOLZANO                62174                8451                 13.59     
-202223          PERUGIA                84146                11146                13.25     
-202223          CAGLIARI               48745                6426                 13.18     
-202223          VITERBO                36887                4347                 11.78     
-202223          TERAMO                 37331                4376                 11.72     
-202223          SASSARI                55823                5971                 10.7      
-202223          L'AQUILA               34389                3664                 10.65     
-202223          RAGUSA                 44009                4545                 10.33     
-202223          ASCOLI PICENO          26325                2274                 8.64      
-202223          RIETI                  18256                1565                 8.57      
-202223          NUORO                  24589                1903                 7.74      
-202223          PESCARA                42454                3106                 7.32      
-202223          LATINA                 72216                5280                 7.31      
-202223          ORISTANO               15213                1078                 7.09      
-202223          SUD SARDEGNA           32146                1689                 5.25      
-202223          CHIETI                 46788                2317                 4.95      
-202223          TRAPANI                55120                2701                 4.9       
-202223          SIRACUSA               50204                2435                 4.85      
-202223          CATANZARO              44333                2067                 4.66      
-202223          BARI                   164392               7526                 4.58      
-202223          CATANIA                149026               6485                 4.35      
-202223          PALERMO                158454               6556                 4.14      
-202223          CAMPOBASSO             25117                995                  3.96      
-202223          MESSINA                72224                2841                 3.93      
-202223          MATERA                 25538                997                  3.9       
-202223          LECCE                  96413                3702                 3.84      
-202223          FOGGIA                 79325                2954                 3.72      
-202223          SALERNO                145471               5396                 3.71      
-202223          REGGIO CALABRIA        69438                2532                 3.65      
-202223          ISERNIA                9016                 326                  3.62      
-202223          BENEVENTO              33476                1186                 3.54      
-202223          CALTANISSETTA          34795                1231                 3.54      
-202223          FROSINONE              61119                2092                 3.42      
-202223          CASERTA                125599               4209                 3.35      
-202223          AGRIGENTO              55078                1840                 3.34      
-202223          CROTONE                23028                757                  3.29      
-202223          TARANTO                74567                2322                 3.11      
-202223          AVELLINO               47578                1429                 3.0       
-202223          ENNA                   20241                596                  2.94      
-202223          VIBO VALENTIA          20252                574                  2.83      
-202223          NAPOLI                 419544               11758                2.8       
-202223          COSENZA                84974                2320                 2.73      
-202223          BRINDISI               49239                1326                 2.69      
-202223          POTENZA                42584                1036                 2.43      
-202223          BARLETTA-ANDRIA-TRANI  51524                1062                 2.06      
-
-
-
-Non avvalentisi per tipologia di scuola, anno 202223, scuole pubbliche
-ANNOSCOLASTICO  TIPOSCUOLA                      SUM(NUMEROSTUDENTI)  SUM(STUDENTINONAVV)  PERCNONAVV
---------------  ------------------------------  -------------------  -------------------  ----------
-202223          Istituto professionale          382324               97582                25.52     
-202223          Istituto tecnico                785898               187609               23.87     
-202223          Liceo                           1270593              222532               17.51     
-202223          Tipo di scuola non disponibile  51357                8849                 17.23     
-202223          Secondaria primo grado          1542801              226292               14.67     
-202223          Primaria                        2260086              265244               11.74     
-202223          Infanzia                        784985               88738                11.3      
-
-
-
-Top ten, anno 202223, scuole pubbliche
-CODICESCUOLA  DENOMINAZIONESCUOLA                      DESCRIZIONECOMUNE  TIPOSCUOLA              NUMEROSTUDENTI  STUDENTINONAVV  PERCNONAVV
-------------  ---------------------------------------  -----------------  ----------------------  --------------  --------------  ----------
-TORI01201D    I.P.I.A. M. OLIVETTI                     IVREA              Istituto professionale  95              86              90.53     
-RGAA01405L    IDRIA                                    COMISO             Infanzia                48              42              87.5      
-TOAA81301A    I.C. TORRE PELLICE                       TORRE PELLICE      Infanzia                44              38              86.36     
-VERM00801N    GIORGIO CINI                             VENEZIA            Istituto professionale  42              36              85.71     
-FITN02901R    IST. TECNICO TURISMO "SASSETTI-PERUZZI"  FIRENZE            Istituto tecnico        244             209             85.66     
-TOMM81301E    I.C. TORRE PELLICE - RODARI              TORRE PELLICE      Secondaria primo grado  175             148             84.57     
-BORI01901G    I.P.I.A. ALDINI VALERIANI                BOLOGNA            Istituto professionale  380             320             84.21     
-FIRA00701Q    SEZ.DIP. IST.TECN.AGRARIO                FIRENZE            Istituto professionale  188             158             84.04     
-BGAA88602E    VERDELLINO ZINGONIA                      VERDELLINO         Infanzia                99              83              83.84     
-FIRI017012    LEONARDO DA VINCI                        FIRENZE            Istituto professionale  978             819             83.74     
-
+Non avvalentisi per comune con più di 25000 abitanti, anno 202425, scuole pubbliche
+ANNOSCOLASTICO  DESCRIZIONECOMUNE          SUM(NUMEROSTUDENTI)  SUM(STUDENTINONAVV)  PERCNONAVV
+--------------  -------------------------  -------------------  -------------------  ----------
+202425          MONFALCONE                 3591                 2064                 57.48     
+202425          PINEROLO                   8152                 4456                 54.66     
+202425          FIRENZE                    45098                22931                50.85     
+202425          SESTO FIORENTINO           6630                 3286                 49.56     
+202425          LUGO                       5135                 2522                 49.11     
+202425          BOLOGNA                    42209                19806                46.92     
+202425          CASALECCHIO DI RENO        6424                 3010                 46.86     
+202425          AOSTA                      6338                 2947                 46.5      
+202425          SCANDICCI                  5825                 2638                 45.29     
+202425          CARPI                      10488                4593                 43.79     
+202425          VIGNOLA                    5826                 2480                 42.57     
+202425          BIELLA                     7927                 3353                 42.3      
+202425          MANTOVA                    11653                4864                 41.74     
+202425          CORREGGIO                  4108                 1701                 41.41     
+202425          PIOLTELLO                  4485                 1835                 40.91     
+202425          SAN LAZZARO DI SAVENA      5599                 2267                 40.49     
+202425          BRESCIA                    30574                11799                38.59     
+202425          RAVENNA                    16958                6527                 38.49     
+202425          PRATO                      27054                10353                38.27     
+202425          TRIESTE                    20254                7730                 38.17     
+202425          IMPERIA                    6626                 2518                 38.0      
+202425          TORINO                     90799                34440                37.93     
+202425          SAN GIOVANNI IN PERSICETO  3846                 1454                 37.81     
+202425          LIVORNO                    18068                6807                 37.67     
+202425          PORDENONE                  10958                4104                 37.45     
+202425          PISA                       14692                5437                 37.01     
+202425          SAVONA                     9127                 3376                 36.99     
+202425          MILANO                     129178               47756                36.97     
+202425          MODENA                     26522                9774                 36.85     
+202425          SESTO SAN GIOVANNI         8491                 3123                 36.78     
+202425          VIAREGGIO                  7805                 2859                 36.63     
+202425          TREVIGLIO                  7605                 2773                 36.46     
+202425          EMPOLI                     9266                 3372                 36.39     
+202425          CONEGLIANO                 7446                 2709                 36.38     
+202425          PISTOIA                    13409                4860                 36.24     
+202425          PAVIA                      14665                5267                 35.92     
+202425          VENEZIA                    28815                10351                35.92     
+202425          CENTO                      6600                 2357                 35.71     
+202425          VERBANIA                   5613                 1977                 35.22     
+202425          VIGEVANO                   8371                 2927                 34.97     
+202425          ABBIATEGRASSO              4868                 1702                 34.96     
+202425          GENOVA                     58361                20375                34.91     
+202425          CINISELLO BALSAMO          8367                 2914                 34.83     
+202425          RAPALLO                    2741                 950                  34.66     
+202425          COMO                       14716                5070                 34.45     
+202425          VERCELLI                   7571                 2608                 34.45     
+202425          PADOVA                     30479                10492                34.42     
+202425          FIDENZA                    4543                 1555                 34.23     
+202425          GORIZIA                    5460                 1867                 34.19     
+202425          VITTORIO VENETO            5355                 1826                 34.1      
+202425          ROSIGNANO MARITTIMO        2705                 907                  33.53     
+202425          NOVARA                     16585                5495                 33.13     
+202425          VIMERCATE                  6952                 2302                 33.11     
+202425          CAMPI BISENZIO             4205                 1374                 32.68     
+202425          BERGAMO                    25504                8310                 32.58     
+202425          CORSICO                    4805                 1565                 32.57     
+202425          ROVERETO                   6864                 2227                 32.44     
+202425          MONTICHIARI                3902                 1263                 32.37     
+202425          RHO                        8735                 2780                 31.83     
+202425          PIACENZA                   18337                5824                 31.76     
+202425          BELLUNO                    6054                 1922                 31.75     
+202425          SIENA                      10211                3224                 31.57     
+202425          LA SPEZIA                  14013                4366                 31.16     
+202425          REGGIO NELL'EMILIA         25662                7985                 31.12     
+202425          TRENTO                     14426                4483                 31.08     
+202425          LUCCA                      15050                4662                 30.98     
+202425          CASTELFRANCO EMILIA        3753                 1159                 30.88     
+202425          PIOMBINO                   3803                 1174                 30.87     
+202425          SERIATE                    3380                 1034                 30.59     
+202425          LEGNANO                    8005                 2430                 30.36     
+202425          CREMONA                    12192                3661                 30.03     
+202425          GALLARATE                  9849                 2957                 30.02     
+202425          LODI                       10121                3021                 29.85     
+202425          VALSAMOGGIA                3115                 929                  29.82     
+202425          CHIVASSO                   4622                 1374                 29.73     
+202425          POGGIBONSI                 3577                 1055                 29.49     
+202425          CHIERI                     5245                 1528                 29.13     
+202425          PONTEDERA                  8430                 2449                 29.05     
+202425          SETTIMO TORINESE           5288                 1527                 28.88     
+202425          ASTI                       11653                3346                 28.71     
+202425          FERRARA                    17294                4950                 28.62     
+202425          CECINA                     4894                 1374                 28.08     
+202425          CANTU'                     5109                 1424                 27.87     
+202425          MONZA                      16990                4729                 27.83     
+202425          COLOGNO MONZESE            5020                 1394                 27.77     
+202425          SASSUOLO                   7896                 2192                 27.76     
+202425          MONTEBELLUNA               6554                 1798                 27.43     
+202425          IMOLA                      10049                2747                 27.34     
+202425          MIRA                       2486                 679                  27.31     
+202425          UDINE                      18622                5042                 27.08     
+202425          SARONNO                    7792                 2089                 26.81     
+202425          BOLLATE                    4791                 1281                 26.74     
+202425          ALESSANDRIA                11204                2965                 26.46     
+202425          SAN GIULIANO MILANESE      3406                 900                  26.42     
+202425          TORTONA                    3700                 977                  26.41     
+202425          ROZZANO                    4876                 1286                 26.37     
+202425          ARZIGNANO                  3913                 1022                 26.12     
+202425          MARIANO COMENSE            3526                 918                  26.04     
+202425          VARESE                     11808                3062                 25.93     
+202425          CHIAVARI                   5228                 1354                 25.9      
+202425          GRUGLIASCO                 6209                 1605                 25.85     
+202425          VERONA                     34070                8808                 25.85     
+202425          SANREMO                    5925                 1521                 25.67     
+202425          LIMBIATE                   4608                 1181                 25.63     
+202425          FORLI'                     16079                4112                 25.57     
+202425          LEGNAGO                    5926                 1505                 25.4      
+202425          GROSSETO                   11801                2982                 25.27     
+202425          CREMA                      9527                 2398                 25.17     
+202425          DESENZANO DEL GARDA        4958                 1243                 25.07     
+202425          MONCALIERI                 6965                 1740                 24.98     
+202425          CESANO MADERNO             4991                 1243                 24.9      
+202425          NOVI LIGURE                4747                 1182                 24.9      
+202425          LECCO                      9186                 2283                 24.85     
+202425          CERVIA                     2762                 686                  24.84     
+202425          PADERNO DUGNANO            5266                 1301                 24.71     
+202425          PARMA                      27658                6829                 24.69     
+202425          SEREGNO                    5911                 1450                 24.53     
+202425          MIRANO                     5986                 1467                 24.51     
+202425          NICHELINO                  5571                 1356                 24.34     
+202425          SAN DONA' DI PIAVE         7004                 1705                 24.34     
+202425          AREZZO                     14756                3588                 24.32     
+202425          CUNEO                      11035                2676                 24.25     
+202425          VILLAFRANCA DI VERONA      5661                 1369                 24.18     
+202425          CAMAIORE                   3182                 766                  24.07     
+202425          TREVISO                    16723                4017                 24.02     
+202425          RIVOLI                     5405                 1295                 23.96     
+202425          DESIO                      4730                 1132                 23.93     
+202425          BRESSO                     1930                 454                  23.52     
+202425          CERNUSCO SUL NAVIGLIO      5126                 1203                 23.47     
+202425          CASALE MONFERRATO          4390                 1025                 23.35     
+202425          VOGHERA                    6595                 1539                 23.34     
+202425          SCANDIANO                  3483                 800                  22.97     
+202425          CASCINA                    4670                 1063                 22.76     
+202425          JESOLO                     2465                 561                  22.76     
+202425          SPINEA                     2030                 461                  22.71     
+202425          BUSTO ARSIZIO              12448                2820                 22.65     
+202425          PARABIAGO                  4288                 971                  22.64     
+202425          MERANO * MERAN             7235                 1637                 22.63     
+202425          BOLZANO * BOZEN            16922                3819                 22.57     
+202425          SAN DONATO MILANESE        5380                 1211                 22.51     
+202425          TERNI                      14416                3221                 22.34     
+202425          SCHIO                      7413                 1655                 22.33     
+202425          MASSA                      8076                 1801                 22.3      
+202425          COLLEGNO                   4142                 917                  22.14     
+202425          ROMA                       290874               64138                22.05     
+202425          ANCONA                     14344                3110                 21.68     
+202425          CAGLIARI                   23261                5004                 21.51     
+202425          FAENZA                     9887                 2081                 21.05     
+202425          FALCONARA MARITTIMA        2718                 571                  21.01     
+202425          SAN MINIATO                4142                 850                  20.52     
+202425          GIUSSANO                   2790                 572                  20.5      
+202425          VICENZA                    19991                4092                 20.47     
+202425          MOGLIANO VENETO            3191                 650                  20.37     
+202425          PESARO                     14640                2980                 20.36     
+202425          SAN GIOVANNI LUPATOTO      2076                 421                  20.28     
+202425          CESENA                     15653                3170                 20.25     
+202425          QUARRATA                   2617                 529                  20.21     
+202425          RIMINI                     19021                3841                 20.19     
+202425          PORTO SANT'ELPIDIO         3189                 639                  20.04     
+202425          BRA                        4773                 932                  19.53     
+202425          RICCIONE                   4430                 859                  19.39     
+202425          GARBAGNATE MILANESE        2878                 556                  19.32     
+202425          SASSARI                    17939                3442                 19.19     
+202425          BASSANO DEL GRAPPA         11225                2149                 19.14     
+202425          CARRARA                    7182                 1371                 19.09     
+202425          JESI                       7755                 1461                 18.84     
+202425          CASTELFRANCO VENETO        8867                 1668                 18.81     
+202425          CARMAGNOLA                 3972                 746                  18.78     
+202425          CAPANNORI                  4654                 854                  18.35     
+202425          CESENATICO                 3212                 587                  18.28     
+202425          LISSONE                    5631                 1019                 18.1      
+202425          VALDAGNO                   4008                 722                  18.01     
+202425          MONTEROTONDO               8577                 1513                 17.64     
+202425          ROVIGO                     7440                 1302                 17.5      
+202425          SENIGALLIA                 8081                 1409                 17.44     
+202425          ALBA                       7167                 1237                 17.26     
+202425          PERUGIA                    23699                4086                 17.24     
+202425          FERMO                      7971                 1313                 16.47     
+202425          SAN GIULIANO TERME         1986                 327                  16.47     
+202425          VELLETRI                   8956                 1445                 16.13     
+202425          VENARIA REALE              3528                 564                  15.99     
+202425          CITTA' DI CASTELLO         5145                 818                  15.9      
+202425          SEGRATE                    3518                 551                  15.66     
+202425          FONTE NUOVA                2652                 414                  15.61     
+202425          COMISO                     4401                 680                  15.45     
+202425          MACERATA                   8857                 1362                 15.38     
+202425          SAN GIUSEPPE VESUVIANO     3541                 542                  15.31     
+202425          POMEZIA                    10379                1576                 15.18     
+202425          CIVITANOVA MARCHE          5968                 901                  15.1      
+202425          VITERBO                    10630                1604                 15.09     
+202425          LAINATE                    2099                 312                  14.86     
+202425          CIAMPINO                   5342                 791                  14.81     
+202425          SCICLI                     3382                 500                  14.78     
+202425          ANZIO                      8454                 1243                 14.7      
+202425          ARDEA                      2934                 428                  14.59     
+202425          FIUMICINO                  9068                 1321                 14.57     
+202425          ALGHERO                    4487                 653                  14.55     
+202425          AVEZZANO                   8434                 1216                 14.42     
+202425          NUORO                      6090                 869                  14.27     
+202425          CIVITAVECCHIA              8493                 1211                 14.26     
+202425          ASSEMINI                   2111                 300                  14.21     
+202425          ORISTANO                   6270                 878                  14.0      
+202425          NETTUNO                    6155                 861                  13.99     
+202425          VITTORIA                   9930                 1376                 13.86     
+202425          ALBANO LAZIALE             4142                 562                  13.57     
+202425          ASSISI                     5359                 727                  13.57     
+202425          CHIOGGIA                   4696                 637                  13.56     
+202425          TERRACINA                  5461                 740                  13.55     
+202425          ROSETO DEGLI ABRUZZI       4171                 563                  13.5      
+202425          BRUGHERIO                  2613                 352                  13.47     
+202425          OLBIA                      9157                 1233                 13.47     
+202425          RAGUSA                     10653                1421                 13.34     
+202425          FABRIANO                   4356                 573                  13.15     
+202425          CANOSA DI PUGLIA           3151                 397                  12.6      
+202425          LADISPOLI                  5410                 680                  12.57     
+202425          TERAMO                     9485                 1182                 12.46     
+202425          SPOLETO                    4607                 565                  12.26     
+202425          GUIDONIA MONTECELIO        11365                1348                 11.86     
+202425          L'AQUILA                   10126                1198                 11.83     
+202425          FOLIGNO                    9153                 1069                 11.68     
+202425          FORMIGINE                  2869                 335                  11.68     
+202425          FANO                       7681                 893                  11.63     
+202425          SAN BENEDETTO DEL TRONTO   7360                 852                  11.58     
+202425          QUARTU SANT'ELENA          6759                 759                  11.23     
+202425          MERANO                     1517                 168                  11.07     
+202425          BUCCINASCO                 2157                 238                  11.03     
+202425          OSIMO                      5089                 557                  10.95     
+202425          BATTIPAGLIA                8009                 876                  10.94     
+202425          EBOLI                      5214                 560                  10.74     
+202425          ALBIGNASEGO                2255                 241                  10.69     
+202425          TIVOLI                     9094                 940                  10.34     
+202425          FONDI                      5541                 569                  10.27     
+202425          LATINA                     20378                2052                 10.07     
+202425          MARINO                     3783                 380                  10.04     
+202425          VIBO VALENTIA              8172                 790                  9.67      
+202425          RIETI                      7628                 729                  9.56      
+202425          PESCARA                    22494                2105                 9.36      
+202425          AVOLA                      3985                 366                  9.18      
+202425          CERVETERI                  3834                 352                  9.18      
+202425          MAZARA DEL VALLO           6912                 633                  9.16      
+202425          BARCELLONA POZZO DI GOTTO  5821                 532                  9.14      
+202425          MONTESILVANO               5649                 498                  8.82      
+202425          SELARGIUS                  3085                 264                  8.56      
+202425          ASCOLI PICENO              8219                 675                  8.21      
+202425          LECCE                      20951                1711                 8.17      
+202425          PUTIGNANO                  3260                 262                  8.04      
+202425          BARI                       41752                3329                 7.97      
+202425          LICATA                     4174                 332                  7.95      
+202425          GROTTAGLIE                 4769                 373                  7.82      
+202425          COSENZA                    12800                983                  7.68      
+202425          CALTANISSETTA              9995                 767                  7.67      
+202425          BOLZANO                    1867                 142                  7.61      
+202425          SARNO                      5483                 415                  7.57      
+202425          LAMEZIA TERME              11269                847                  7.52      
+202425          CISTERNA DI LATINA         4640                 342                  7.37      
+202425          APRILIA                    9605                 699                  7.28      
+202425          VASTO                      6848                 476                  6.95      
+202425          CARBONIA                   3248                 224                  6.9       
+202425          SCAFATI                    7062                 486                  6.88      
+202425          CHIETI                     8447                 580                  6.87      
+202425          LANCIANO                   7456                 497                  6.67      
+202425          GIOIA DEL COLLE            3265                 211                  6.46      
+202425          GIUGLIANO IN CAMPANIA      15046                967                  6.43      
+202425          MODICA                     8285                 533                  6.43      
+202425          REGGIO DI CALABRIA         22325                1435                 6.43      
+202425          CATANIA                    46959                2997                 6.38      
+202425          GUBBIO                     4386                 277                  6.32      
+202425          TRAPANI                    9198                 563                  6.12      
+202425          PALERMO                    87123                5242                 6.02      
+202425          ALCAMO                     6921                 415                  6.0       
+202425          BELPASSO                   3321                 198                  5.96      
+202425          MASSAFRA                   4405                 262                  5.95      
+202425          FOGGIA                     19527                1151                 5.89      
+202425          MODUGNO                    3240                 190                  5.86      
+202425          MARTINA FRANCA             6688                 386                  5.77      
+202425          MARSALA                    11037                631                  5.72      
+202425          ORTA DI ATELLA             2038                 116                  5.69      
+202425          SIRACUSA                   17255                975                  5.65      
+202425          CASTELVETRANO              4672                 263                  5.63      
+202425          MESSINA                    27208                1518                 5.58      
+202425          AVERSA                     15956                886                  5.55      
+202425          CASSINO                    8407                 467                  5.55      
+202425          TERMOLI                    5500                 304                  5.53      
+202425          OSTUNI                     3598                 198                  5.5       
+202425          CONVERSANO                 4456                 242                  5.43      
+202425          FROSINONE                  8962                 468                  5.22      
+202425          CORATO                     6286                 322                  5.12      
+202425          PARTINICO                  6253                 307                  4.91      
+202425          TRIGGIANO                  4116                 201                  4.88      
+202425          BAGHERIA                   9924                 474                  4.78      
+202425          AGRIGENTO                  9196                 436                  4.74      
+202425          CALTAGIRONE                5579                 262                  4.7       
+202425          SANTERAMO IN COLLE         3138                 144                  4.59      
+202425          BRINDISI                   14713                667                  4.53      
+202425          MONOPOLI                   6602                 294                  4.45      
+202425          SANT'ANTIMO                4975                 220                  4.42      
+202425          MATERA                     10375                456                  4.4       
+202425          LUCERA                     4679                 203                  4.34      
+202425          MONREALE                   3980                 171                  4.3       
+202425          FORMIA                     5756                 247                  4.29      
+202425          ACIREALE                   9099                 382                  4.2       
+202425          BOSCOREALE                 2602                 108                  4.15      
+202425          MARCIANISE                 8075                 331                  4.1       
+202425          GIARRE                     6508                 256                  3.93      
+202425          MASCALUCIA                 4931                 194                  3.93      
+202425          NAPOLI                     119436               4534                 3.8       
+202425          PONTECAGNANO FAIANO        2761                 104                  3.77      
+202425          CATANZARO                  14419                540                  3.75      
+202425          AUGUSTA                    4223                 158                  3.74      
+202425          PORTICI                    8726                 326                  3.74      
+202425          MANFREDONIA                7606                 282                  3.71      
+202425          ENNA                       3836                 140                  3.65      
+202425          FRANCAVILLA AL MARE        2388                 87                   3.64      
+202425          MILAZZO                    6389                 230                  3.6       
+202425          AVELLINO                   12452                446                  3.58      
+202425          BITONTO                    7807                 279                  3.57      
+202425          ERICE                      3893                 136                  3.49      
+202425          BENEVENTO                  11311                392                  3.47      
+202425          MISILMERI                  2774                 93                   3.35      
+202425          GALATINA                   4166                 139                  3.34      
+202425          GELA                       9845                 324                  3.29      
+202425          CASTEL VOLTURNO            3429                 112                  3.27      
+202425          GRAVINA IN PUGLIA          5784                 188                  3.25      
+202425          FASANO                     4832                 154                  3.19      
+202425          SCIACCA                    6354                 203                  3.19      
+202425          BARLETTA                   12701                403                  3.17      
+202425          POZZUOLI                   13024                413                  3.17      
+202425          SANTA MARIA CAPUA VETERE   5339                 169                  3.17      
+202425          CASERTA                    13349                421                  3.15      
+202425          ALTAMURA                   11242                350                  3.11      
+202425          SAN SEVERO                 6928                 215                  3.1       
+202425          MELITO DI NAPOLI           3352                 103                  3.07      
+202425          CAMPOBASSO                 8717                 266                  3.05      
+202425          CROTONE                    11356                345                  3.04      
+202425          NOLA                       5954                 180                  3.02      
+202425          TRANI                      7232                 214                  2.96      
+202425          MARANO DI NAPOLI           7377                 215                  2.91      
+202425          MOLFETTA                   9943                 284                  2.86      
+202425          CERIGNOLA                  8905                 252                  2.83      
+202425          PAGANI                     3986                 112                  2.81      
+202425          POTENZA                    11714                326                  2.78      
+202425          NOICATTARO                 2490                 69                   2.77      
+202425          ACI CATENA                 1829                 50                   2.73      
+202425          TARANTO                    26935                735                  2.73      
+202425          PATERNO'                   7475                 202                  2.7       
+202425          ACERRA                     7930                 211                  2.66      
+202425          TERLIZZI                   3263                 86                   2.64      
+202425          GRAVINA DI CATANIA         2724                 69                   2.53      
+202425          CORIGLIANO-ROSSANO         11813                297                  2.51      
+202425          SALERNO                    20614                514                  2.49      
+202425          SAN GIOVANNI ROTONDO       3810                 94                   2.47      
+202425          MANDURIA                   3975                 96                   2.42      
+202425          MUGNANO DI NAPOLI          3194                 77                   2.41      
+202425          RENDE                      6351                 146                  2.3       
+202425          MISTERBIANCO               5674                 129                  2.27      
+202425          SAN GIORGIO A CREMANO      7391                 165                  2.23      
+202425          MONDRAGONE                 4231                 94                   2.22      
+202425          CANICATTI'                 5115                 112                  2.19      
+202425          MESAGNE                    2555                 56                   2.19      
+202425          POMIGLIANO D'ARCO          10630                231                  2.17      
+202425          NARDO'                     4238                 90                   2.12      
+202425          QUARTO                     5867                 124                  2.11      
+202425          FRANCAVILLA FONTANA        5802                 122                  2.1       
+202425          ERCOLANO                   4900                 100                  2.04      
+202425          VILLARICCA                 4436                 90                   2.03      
+202425          SANT'ANASTASIA             3865                 78                   2.02      
+202425          BISCEGLIE                  6374                 123                  1.93      
+202425          MADDALONI                  5601                 108                  1.93      
+202425          CAIVANO                    5057                 96                   1.9       
+202425          CARINI                     4217                 80                   1.9       
+202425          ANGRI                      5259                 99                   1.88      
+202425          TORRE ANNUNZIATA           7211                 131                  1.82      
+202425          ALATRI                     4041                 71                   1.76      
+202425          MARIGLIANO                 5605                 97                   1.73      
+202425          ARZANO                     5683                 97                   1.71      
+202425          FRATTAMAGGIORE             8093                 138                  1.71      
+202425          NOCERA INFERIORE           8094                 138                  1.7       
+202425          AFRAGOLA                   9959                 166                  1.67      
+202425          SOMMA VESUVIANA            4154                 64                   1.54      
+202425          CAVA DE' TIRRENI           7675                 113                  1.47      
+202425          FAVARA                     4128                 52                   1.26      
+202425          ANDRIA                     14075                176                  1.25      
+202425          CASALNUOVO DI NAPOLI       5842                 70                   1.2       
+202425          TORRE DEL GRECO            11961                128                  1.07      
+202425          CASTELLAMMARE DI STABIA    11588                111                  0.96      
+202425          ADRANO                     5625                 53                   0.94      
+202425          CASORIA                    8762                 80                   0.91      
+202425          VOLLA                      3648                 33                   0.9       
+202425          GRAGNANO                   4591                 32                   0.7       

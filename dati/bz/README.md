@@ -6,6 +6,8 @@ Questa directory contiene i dati ricevuti dall'Amministrazioni provinciale di Bo
 
 Nel 2025 sono stati aggiunti i file ricevuti in seguito a richieste fatte nel corso del 2024.
 
+Nel 2026 sono stati aggiunti i file ricevuti in seguito a richieste fatte nel corso del 2025.
+
 ## Scuole in lingua italiana
 
 Il file `Frequenza religione cattolica 2018 2023.XLS` è stato ricevuto il 22 novembre 2023, con allegata la seguente nota:
@@ -16,12 +18,15 @@ Il file `Frequenza religione cattolica 2018 2023.XLS` è stato ricevuto il 22 no
 
 I dati sono stati estratti e inseriti nei file `bolzano_ita*csv` e nel file `INTEGRAZIONEALTOADIGE202223.csv`.
 
+Il file `Frequenza religione cattolica 24_25 e 25_26.xls` è stato ricevuto il 4 dicembre 2025.
+
 ## Scuole in lingua ladina
 
 I dati, ricevuti il 5 dicembre 2023, sono nel file `Dati insegnamento religione cattolica_richiesta civica 21.11.2023 prot.n.915784.xls`.
 
 Sono stati rielaborati e inseriti nel file `bolzano_lad*.csv`.
 
+I file `Religione scuole ladine anno scolastico 2024-25.xlsx` e `Religione scuole ladine anno scolastico 2025-26.xlsx` e `Indirizzi scuole.xlsx.pdf` sono stati ricevuti il 3 dicembre 2025.
 
 ## Scuole in lingua tedesca
 
@@ -39,6 +44,8 @@ I file sono i seguenti:
 Sono presenti solo i dati a partire dall'anno scolastico 2019/20.
 
 I formati dei file lasciano molto a desiderare (PDF, assenza di codifica delle scuole, nomi scuole che non corrispondono a quelli degli elenchi ufficiali, ecc.).
+
+Il file `Dati sull'IRC.xlsx` contiene i dati sugli anni scolastici 2024/25 e 2025/26.
 
 I dati sono comunque stati estratti, elaborati e inseriti nei file `bolzano_ted*.csv`. Potrebbero esserci degli errori per valori attribuiti agli istituti non corretti.
 
