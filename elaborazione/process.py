@@ -4,6 +4,7 @@ import csv
 import sys
 import sqlite3
 import numpy as np
+import json
 
 con = sqlite3.connect("aa_irc2025.db")
 con.row_factory = sqlite3.Row
@@ -121,8 +122,8 @@ def impute_missing_student_values(year):
     cur.execute("DELETE FROM STUDENTI WHERE NUMEROSTUDENTI IS NULL")
 
     print("Copia del dato di studenti irc")
-    cur.execute("UPDATE STUDENTI SET STUDENTIIRCS = STUDENTIIRC")
-
+    cur.execute("UPDATE STUDENTI SET STUDENTIIRCS = STUDENTIIRC WHERE ANNOSCOLASTICO = ?", (year,))
+    
     sql_missing = """
     SELECT
         st.ROWID,
@@ -341,7 +342,7 @@ def find_anomalies(year):
     JOIN SCUOLE s
       ON st.CODICESCUOLA = s.CODICESCUOLA
      AND st.ANNOSCOLASTICO = s.ANNOSCOLASTICO
-    WHERE st.DATODUBBIO != 'STUDENTIIRC<=3: Valore calcolato in base alla media provinciale'
+    WHERE st.DATODUBBIO NOT LIKE 'STUDENTIIRC<=3%'
       AND st.STUDENTIIRC * 1.0 / st.NUMEROSTUDENTI < 0.15
       AND st.NUMEROSTUDENTI > 0
       AND st.ANNOSCOLASTICO = ?
